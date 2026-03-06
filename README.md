@@ -4,12 +4,12 @@ ArthroLens is an AI-based biological intelligence system designed to identify in
 
 The system combines:
 
-🧠 Computer Vision (Deep Learning classification)
+Computer Vision (Deep Learning classification)
 
-🔥 Explainable AI (Grad-CAM heatmaps)
+Explainable AI (Grad-CAM heatmaps)
 
-📚 Knowledge-Based Intelligence (Scientific taxonomy + disease data)
+Knowledge-Based Intelligence (Scientific taxonomy + disease data)
 
-⚠ Risk Scoring Engine (Safe / Caution / High Risk)
+Risk Scoring Engine (Safe / Caution / High Risk)
 
-🌍 Ecological Health Indicator Analysis
+Ecological Health Indicator Analysis
