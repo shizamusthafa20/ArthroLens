@@ -1,29 +1,4 @@
 {
-  "aedes_mosquito": {
-    "common_name": "Aedes Mosquito",
-    "scientific_name": "Aedes aegypti",
-    "taxonomy": {"order": "Diptera", "family": "Culicidae", "genus": "Aedes"},
-    "risk_level": "High Risk",
-    "risk_color": "#FF3333",
-    "rarity": "Very Common",
-    "diseases": ["Dengue Fever", "Zika Virus", "Chikungunya", "Yellow Fever"],
-    "symptoms": ["High fever", "Severe headache", "Joint pain", "Skin rash"],
-    "habitat": "Stagnant water, urban areas, flower pots, tires",
-    "active_season": "Monsoon & Post-monsoon (July-October)",
-    "invasive": true,
-    "allergy_risk": "Low",
-    "bioindicator": "Presence indicates stagnant/polluted water nearby",
-    "ecological_role": "Part of food chain for birds and bats",
-    "precautions": [
-      "Use mosquito repellent (DEET-based)",
-      "Eliminate stagnant water around home",
-      "Use mosquito nets while sleeping",
-      "Wear full-sleeve clothing at dawn/dusk",
-      "Install window and door screens"
-    ],
-    "immediate_action": "If bitten and fever develops within 3-14 days, see a doctor immediately",
-    "fun_fact": "Only female mosquitoes bite - they need blood protein to develop eggs"
-  },
   "honeybee": {
     "common_name": "Honeybee",
     "scientific_name": "Apis mellifera",
@@ -46,8 +21,30 @@
       "Do not disturb hives",
       "Wear light-colored clothing outdoors"
     ],
-    "immediate_action": "Remove stinger by scraping (not pinching). Apply ice. Seek emergency care if allergic reaction occurs.",
+    "immediate_action": "Remove stinger by scraping not pinching. Apply ice. Seek emergency care if allergic reaction occurs.",
     "fun_fact": "A honeybee visits 50-100 flowers during a single collection trip"
+  },
+  "dragonfly": {
+    "common_name": "Dragonfly",
+    "scientific_name": "Anax imperator",
+    "taxonomy": {"order": "Odonata", "family": "Aeshnidae", "genus": "Anax"},
+    "risk_level": "Safe",
+    "risk_color": "#33CC33",
+    "rarity": "Moderately Common",
+    "diseases": [],
+    "symptoms": [],
+    "habitat": "Near clean ponds, lakes, rivers, wetlands",
+    "active_season": "Summer (May-September)",
+    "invasive": false,
+    "allergy_risk": "None",
+    "bioindicator": "Presence means clean unpolluted water is nearby. Dragonfly larvae require high water quality.",
+    "ecological_role": "Apex insect predator - controls mosquito and fly populations naturally",
+    "precautions": [
+      "No precautions needed - completely harmless to humans",
+      "Protect their habitat by keeping water bodies clean"
+    ],
+    "immediate_action": "No action needed. Dragonflies are completely harmless!",
+    "fun_fact": "Dragonflies have a 95% hunting success rate - the highest of any predator on Earth"
   },
   "house_spider": {
     "common_name": "House Spider",
@@ -73,51 +70,52 @@
     "immediate_action": "Generally harmless. If bitten, clean with antiseptic. Monitor for unusual swelling.",
     "fun_fact": "House spiders can go months without food and help control household pest populations"
   },
-  "german_cockroach": {
-    "common_name": "German Cockroach",
-    "scientific_name": "Blattella germanica",
-    "taxonomy": {"order": "Blattodea", "family": "Ectobiidae", "genus": "Blattella"},
-    "risk_level": "Caution",
-    "risk_color": "#FFA500",
-    "rarity": "Common",
-    "diseases": ["Salmonellosis", "Typhoid", "Dysentery", "Gastroenteritis", "Asthma trigger"],
-    "symptoms": ["Food poisoning symptoms", "Allergic reactions", "Asthma attacks"],
-    "habitat": "Kitchens, bathrooms, drains, behind appliances, food storage areas",
-    "active_season": "Year-round (prefers warm humid conditions)",
-    "invasive": true,
-    "allergy_risk": "High - cockroach allergens are a major asthma trigger",
-    "bioindicator": "Presence indicates poor sanitation or moisture issues",
-    "ecological_role": "Decomposer in natural ecosystems",
+  "scorpion": {
+    "common_name": "Scorpion",
+    "scientific_name": "Androctonus australis",
+    "taxonomy": {"order": "Scorpiones", "family": "Buthidae", "genus": "Androctonus"},
+    "risk_level": "High Risk",
+    "risk_color": "#FF3333",
+    "rarity": "Uncommon",
+    "diseases": ["Scorpionism", "Neurotoxic envenomation", "Cardiovascular complications"],
+    "symptoms": ["Intense pain at sting site", "Numbness", "Difficulty breathing", "Muscle spasms", "Increased heart rate"],
+    "habitat": "Deserts, rocky areas, under stones, dark corners of homes",
+    "active_season": "Summer (April-September)",
+    "invasive": false,
+    "allergy_risk": "High - venom can cause severe allergic reactions",
+    "bioindicator": "Presence indicates rocky or arid environment nearby",
+    "ecological_role": "Predator of insects and small animals - controls pest populations",
     "precautions": [
-      "Store food in sealed containers",
-      "Fix leaky pipes and eliminate moisture",
-      "Seal entry points like pipes and gaps in walls",
-      "Clean kitchen surfaces and appliances regularly",
-      "Use boric acid or cockroach bait traps"
+      "Shake out shoes and clothing before wearing",
+      "Use a flashlight at night in scorpion areas",
+      "Seal cracks and gaps in walls and floors",
+      "Wear gloves when moving rocks or wood",
+      "Keep beds away from walls"
     ],
-    "immediate_action": "Do not consume food that cockroaches may have contacted. Clean and disinfect affected areas immediately.",
-    "fun_fact": "German cockroaches can develop resistance to pesticides within a few generations"
+    "immediate_action": "Seek emergency medical care immediately! Keep the person calm and still. Do not apply ice or tourniquet.",
+    "fun_fact": "Scorpions glow under ultraviolet light due to chemicals in their exoskeleton"
   },
-  "dragonfly": {
-    "common_name": "Dragonfly",
-    "scientific_name": "Anax imperator",
-    "taxonomy": {"order": "Odonata", "family": "Aeshnidae", "genus": "Anax"},
+  "butterfly": {
+    "common_name": "Butterfly",
+    "scientific_name": "Papilio machaon",
+    "taxonomy": {"order": "Lepidoptera", "family": "Papilionidae", "genus": "Papilio"},
     "risk_level": "Safe",
     "risk_color": "#33CC33",
-    "rarity": "Moderately Common",
+    "rarity": "Common",
     "diseases": [],
     "symptoms": [],
-    "habitat": "Near clean ponds, lakes, rivers, wetlands",
-    "active_season": "Summer (May-September)",
+    "habitat": "Gardens, meadows, forests, flower-rich areas",
+    "active_season": "Spring and Summer (March-September)",
     "invasive": false,
     "allergy_risk": "None",
-    "bioindicator": "Presence means clean unpolluted water is nearby. Dragonfly larvae require high water quality.",
-    "ecological_role": "Apex insect predator - controls mosquito and fly populations naturally",
+    "bioindicator": "Presence indicates healthy flowering plant ecosystem and low pesticide use",
+    "ecological_role": "Important pollinator - supports biodiversity and plant reproduction",
     "precautions": [
-      "No precautions needed - completely harmless to humans",
-      "Protect their habitat by keeping water bodies clean"
+      "No precautions needed - completely harmless",
+      "Avoid using pesticides to protect butterfly populations",
+      "Plant native flowers to support butterfly habitat"
     ],
-    "immediate_action": "No action needed. Dragonflies are completely harmless!",
-    "fun_fact": "Dragonflies have a 95% hunting success rate - the highest of any predator on Earth"
+    "immediate_action": "No action needed. Butterflies are completely harmless!",
+    "fun_fact": "Butterflies taste with their feet using chemoreceptors on their tarsi"
   }
 }
