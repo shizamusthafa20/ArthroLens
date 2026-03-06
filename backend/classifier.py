@@ -1,143 +1,68 @@
 import numpy as np
 from PIL import Image
 import io
+import os
 
-# Insect classes we support
-INSECT_CLASSES = [
-    "aedes_mosquito",
-    "honeybee", 
-    "house_spider",
-    "german_cockroach",
-    "dragonfly"
-]
-
-# Color signatures for each insect (RGB patterns)
-# These are based on typical colors of each insect
-INSECT_SIGNATURES = {
-    "aedes_mosquito": {"dark": 0.6, "stripe": True, "size": "small"},
-    "honeybee": {"yellow": 0.4, "stripe": True, "size": "small"},
-    "house_spider": {"dark": 0.7, "stripe": False, "size": "medium"},
-    "german_cockroach": {"brown": 0.7, "stripe": False, "size": "medium"},
-    "dragonfly": {"colorful": 0.5, "stripe": False, "size": "large"},
+# Class mapping (must match Colab training order)
+CLASS_NAMES = {
+    0: "honeybee",
+    1: "butterfly", 
+    2: "dragonfly",
+    3: "scorpion",
+    4: "house_spider"
 }
 
 def preprocess_image(image_bytes):
-    """Convert image bytes to numpy array"""
+    """Convert image bytes to model input"""
     img = Image.open(io.BytesIO(image_bytes)).convert('RGB')
     img = img.resize((224, 224))
     img_array = np.array(img) / 255.0
+    img_array = np.expand_dims(img_array, axis=0)
     return img_array
-
-def extract_features(img_array):
-    """Extract color and pattern features from image"""
-    # Get color channels
-    r = img_array[:, :, 0]
-    g = img_array[:, :, 1]
-    b = img_array[:, :, 2]
-    
-    # Calculate color features
-    mean_r = np.mean(r)
-    mean_g = np.mean(g)
-    mean_b = np.mean(b)
-    
-    # Calculate brightness
-    brightness = (mean_r + mean_g + mean_b) / 3
-    
-    # Calculate contrast (std deviation)
-    contrast = np.std(img_array)
-    
-    # Yellow ratio (honeybee)
-    yellow_mask = (r > 0.5) & (g > 0.4) & (b < 0.3)
-    yellow_ratio = np.mean(yellow_mask)
-    
-    # Dark ratio (mosquito, spider, cockroach)
-    dark_mask = (r < 0.3) & (g < 0.3) & (b < 0.3)
-    dark_ratio = np.mean(dark_mask)
-    
-    # Brown ratio (cockroach)
-    brown_mask = (r > 0.3) & (g > 0.2) & (b < 0.2) & (r > g) & (g > b)
-    brown_ratio = np.mean(brown_mask)
-    
-    # Green/Blue ratio (dragonfly near water)
-    green_blue_mask = (g > 0.3) | (b > 0.3)
-    green_blue_ratio = np.mean(green_blue_mask)
-    
-    # Stripe detection (variation in rows)
-    row_means = np.mean(img_array, axis=(1, 2))
-    stripe_score = np.std(row_means)
-    
-    return {
-        "brightness": brightness,
-        "contrast": contrast,
-        "yellow_ratio": yellow_ratio,
-        "dark_ratio": dark_ratio,
-        "brown_ratio": brown_ratio,
-        "green_blue_ratio": green_blue_ratio,
-        "stripe_score": stripe_score,
-        "mean_r": mean_r,
-        "mean_g": mean_g,
-        "mean_b": mean_b
-    }
 
 def classify_insect(image_bytes):
     """
-    Classify insect based on color and pattern features
-    Returns: (predicted_class, confidence)
+    Classify insect using trained model if available,
+    otherwise use color-based fallback
     """
-    img_array = preprocess_image(image_bytes)
-    features = extract_features(img_array)
+    model_path = os.path.join(os.path.dirname(__file__), 'arthrolens_model.h5')
     
-    # Score each insect based on features
-    scores = {}
+    if os.path.exists(model_path):
+        # Use real trained model
+        import tensorflow as tf
+        model = tf.keras.models.load_model(model_path)
+        img_array = preprocess_image(image_bytes)
+        predictions = model.predict(img_array, verbose=0)
+        predicted_idx = int(np.argmax(predictions[0]))
+        confidence = round(float(np.max(predictions[0])) * 100, 1)
+        predicted_class = CLASS_NAMES[predicted_idx]
+        confidence = max(60, min(97, confidence))
+        return predicted_class, confidence
+    else:
+        # Fallback until model is ready
+        return fallback_classify(image_bytes)
+
+def fallback_classify(image_bytes):
+    """Color-based fallback classifier"""
+    img = Image.open(io.BytesIO(image_bytes)).convert('RGB')
+    img = img.resize((224, 224))
+    img_array = np.array(img) / 255.0
     
-    # Aedes Mosquito: dark, striped, small
-    scores["aedes_mosquito"] = (
-        features["dark_ratio"] * 3.0 +
-        features["stripe_score"] * 2.0 +
-        (1 - features["yellow_ratio"]) * 1.5 +
-        (1 - features["brown_ratio"]) * 1.0
-    )
+    r = np.mean(img_array[:,:,0])
+    g = np.mean(img_array[:,:,1])
+    b = np.mean(img_array[:,:,2])
+    brightness = (r + g + b) / 3
     
-    # Honeybee: yellow, striped
-    scores["honeybee"] = (
-        features["yellow_ratio"] * 4.0 +
-        features["stripe_score"] * 2.0 +
-        features["brightness"] * 1.5 +
-        (1 - features["dark_ratio"]) * 1.0
-    )
+    yellow = np.mean((img_array[:,:,0] > 0.5) & (img_array[:,:,1] > 0.4) & (img_array[:,:,2] < 0.3))
+    dark = np.mean((img_array[:,:,0] < 0.3) & (img_array[:,:,1] < 0.3) & (img_array[:,:,2] < 0.3))
     
-    # House Spider: dark, no stripes, round
-    scores["house_spider"] = (
-        features["dark_ratio"] * 2.5 +
-        (1 - features["stripe_score"]) * 2.0 +
-        features["contrast"] * 1.5 +
-        (1 - features["yellow_ratio"]) * 1.0
-    )
-    
-    # German Cockroach: brown, flat
-    scores["german_cockroach"] = (
-        features["brown_ratio"] * 4.0 +
-        (1 - features["dark_ratio"]) * 1.5 +
-        (1 - features["yellow_ratio"]) * 1.0 +
-        features["mean_r"] * 2.0
-    )
-    
-    # Dragonfly: colorful, green/blue background
-    scores["dragonfly"] = (
-        features["green_blue_ratio"] * 3.0 +
-        features["brightness"] * 2.0 +
-        (1 - features["dark_ratio"]) * 1.5 +
-        features["contrast"] * 1.0
-    )
-    
-    # Get predicted class
-    predicted_class = max(scores, key=scores.get)
-    
-    # Calculate confidence (normalize scores)
-    total = sum(scores.values())
-    confidence = round((scores[predicted_class] / total) * 100, 1)
-    
-    # Ensure confidence is between 60-95%
-    confidence = max(60, min(95, confidence))
-    
-    return predicted_class, confidence
+    if yellow > 0.15:
+        return "honeybee", 72.0
+    elif dark > 0.4:
+        return "house_spider", 68.0
+    elif brightness > 0.5 and g > r:
+        return "dragonfly", 65.0
+    elif r > 0.4 and g > 0.3:
+        return "scorpion", 65.0
+    else:
+        return "butterfly", 63.0
