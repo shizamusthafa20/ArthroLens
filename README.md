@@ -1,6 +1,6 @@
 # ArthroLens
 
-**Live Demo:** https://shizamusthafa-arthrolens.hf.space/?logs=container&__theme=system&deep_link=lZFbMqTHbyc
+**Live Demo:** https://huggingface.co/spaces/shizamusthafa/ArthroLens
 
 ArthroLens is an AI-based biological intelligence system designed to identify insects and arthropods from images and generate real-time health and ecological risk analysis.
 
