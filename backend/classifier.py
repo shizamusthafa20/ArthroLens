@@ -3,47 +3,46 @@ from PIL import Image
 import io
 import os
 
-# Class mapping (must match Colab training order)
 CLASS_NAMES = {
     0: "honeybee",
-    1: "butterfly", 
+    1: "butterfly",
     2: "dragonfly",
     3: "scorpion",
     4: "house_spider"
 }
 
 def preprocess_image(image_bytes):
-    """Convert image bytes to model input"""
     img = Image.open(io.BytesIO(image_bytes)).convert('RGB')
     img = img.resize((224, 224))
-    img_array = np.array(img) / 255.0
+    img_array = np.array(img, dtype=np.float32) / 255.0
     img_array = np.expand_dims(img_array, axis=0)
     return img_array
 
 def classify_insect(image_bytes):
-    """
-    Classify insect using trained model if available,
-    otherwise use color-based fallback
-    """
-    model_path = os.path.join(os.path.dirname(__file__), 'arthrolens_model.h5')
+    model_path = os.path.join(os.path.dirname(__file__), 'arthrolens_model.tflite')
     
     if os.path.exists(model_path):
-        # Use real trained model
-        import tensorflow as tf
-        model = tf.keras.models.load_model(model_path)
+        import tflite_runtime.interpreter as tflite
+        interpreter = tflite.Interpreter(model_path=model_path)
+        interpreter.allocate_tensors()
+        
+        input_details = interpreter.get_input_details()
+        output_details = interpreter.get_output_details()
+        
         img_array = preprocess_image(image_bytes)
-        predictions = model.predict(img_array, verbose=0)
+        interpreter.set_tensor(input_details[0]['index'], img_array)
+        interpreter.invoke()
+        
+        predictions = interpreter.get_tensor(output_details[0]['index'])
         predicted_idx = int(np.argmax(predictions[0]))
         confidence = round(float(np.max(predictions[0])) * 100, 1)
         predicted_class = CLASS_NAMES[predicted_idx]
         confidence = max(60, min(97, confidence))
         return predicted_class, confidence
     else:
-        # Fallback until model is ready
         return fallback_classify(image_bytes)
 
 def fallback_classify(image_bytes):
-    """Color-based fallback classifier"""
     img = Image.open(io.BytesIO(image_bytes)).convert('RGB')
     img = img.resize((224, 224))
     img_array = np.array(img) / 255.0
@@ -66,3 +65,15 @@ def fallback_classify(image_bytes):
         return "scorpion", 65.0
     else:
         return "butterfly", 63.0
+```
+
+Press **Ctrl + S** to save!
+
+Also update `requirements.txt`:
+```
+flask==3.1.0
+flask-cors==5.0.1
+pillow==12.1.1
+numpy==1.26.4
+tflite-runtime==2.14.0
+gunicorn==21.2.0
