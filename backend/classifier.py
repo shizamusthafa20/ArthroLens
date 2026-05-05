@@ -65,15 +65,3 @@ def fallback_classify(image_bytes):
         return "scorpion", 65.0
     else:
         return "butterfly", 63.0
-```
-
-Press **Ctrl + S** to save!
-
-Also update `requirements.txt`:
-```
-flask==3.1.0
-flask-cors==5.0.1
-pillow==12.1.1
-numpy==1.26.4
-tflite-runtime==2.14.0
-gunicorn==21.2.0
