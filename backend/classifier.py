@@ -1,67 +1,65 @@
 import numpy as np
 from PIL import Image
-import io
+import json
 import os
+import tensorflow as tf
+from tensorflow.keras.applications.efficientnet import preprocess_input
 
-CLASS_NAMES = {
-    0: "honeybee",
-    1: "butterfly",
-    2: "dragonfly",
-    3: "scorpion",
-    4: "house_spider"
-}
+BASE_DIR       = os.path.dirname(__file__)
+MODEL_PATH_H5  = os.path.join(BASE_DIR, 'arthrolens_model_v2.h5')
+MODEL_TFLITE   = os.path.join(BASE_DIR, 'arthrolens_model_v2.tflite')
+CLASS_JSON     = os.path.join(BASE_DIR, 'class_names.json')
+IMG_SIZE       = 224
 
-def preprocess_image(image_bytes):
-    img = Image.open(io.BytesIO(image_bytes)).convert('RGB')
-    img = img.resize((224, 224))
-    img_array = np.array(img, dtype=np.float32) / 255.0
-    img_array = np.expand_dims(img_array, axis=0)
-    return img_array
+with open(CLASS_JSON) as f:
+    CLASS_NAMES = json.load(f)
+print(f'Loaded {len(CLASS_NAMES)} class names')
 
-def classify_insect(image_bytes):
-    model_path = os.path.join(os.path.dirname(__file__), 'arthrolens_model.tflite')
-    
-    if os.path.exists(model_path):
-        import tflite_runtime.interpreter as tflite
-        interpreter = tflite.Interpreter(model_path=model_path)
-        interpreter.allocate_tensors()
-        
-        input_details = interpreter.get_input_details()
-        output_details = interpreter.get_output_details()
-        
-        img_array = preprocess_image(image_bytes)
-        interpreter.set_tensor(input_details[0]['index'], img_array)
-        interpreter.invoke()
-        
-        predictions = interpreter.get_tensor(output_details[0]['index'])
-        predicted_idx = int(np.argmax(predictions[0]))
-        confidence = round(float(np.max(predictions[0])) * 100, 1)
-        predicted_class = CLASS_NAMES[predicted_idx]
-        confidence = max(60, min(97, confidence))
-        return predicted_class, confidence
-    else:
-        return fallback_classify(image_bytes)
 
-def fallback_classify(image_bytes):
-    img = Image.open(io.BytesIO(image_bytes)).convert('RGB')
-    img = img.resize((224, 224))
-    img_array = np.array(img) / 255.0
-    
-    r = np.mean(img_array[:,:,0])
-    g = np.mean(img_array[:,:,1])
-    b = np.mean(img_array[:,:,2])
-    brightness = (r + g + b) / 3
-    
-    yellow = np.mean((img_array[:,:,0] > 0.5) & (img_array[:,:,1] > 0.4) & (img_array[:,:,2] < 0.3))
-    dark = np.mean((img_array[:,:,0] < 0.3) & (img_array[:,:,1] < 0.3) & (img_array[:,:,2] < 0.3))
-    
-    if yellow > 0.15:
-        return "honeybee", 72.0
-    elif dark > 0.4:
-        return "house_spider", 68.0
-    elif brightness > 0.5 and g > r:
-        return "dragonfly", 65.0
-    elif r > 0.4 and g > 0.3:
-        return "scorpion", 65.0
-    else:
-        return "butterfly", 63.0
+class InsectClassifier:
+    def __init__(self):
+        self.model       = None
+        self.interpreter = None
+        self.use_tflite  = False
+        self._load()
+
+    def _load(self):
+        if os.path.exists(MODEL_PATH_H5):
+            print('Loading H5 model...')
+            self.model = tf.keras.models.load_model(MODEL_PATH_H5)
+            print('Model loaded!')
+        elif os.path.exists(MODEL_TFLITE):
+            print('Loading TFLite model...')
+            self.interpreter = tf.lite.Interpreter(model_path=MODEL_TFLITE)
+            self.interpreter.allocate_tensors()
+            self.use_tflite = True
+        else:
+            print('WARNING: No model found!')
+
+    def preprocess(self, pil_img):
+        img = pil_img.convert('RGB').resize((IMG_SIZE, IMG_SIZE))
+        arr = np.array(img, dtype=np.float32)
+        arr = preprocess_input(arr)
+        return np.expand_dims(arr, axis=0)
+
+    def predict(self, pil_img):
+        img_array = self.preprocess(pil_img)
+
+        if self.use_tflite:
+            inp = self.interpreter.get_input_details()
+            out = self.interpreter.get_output_details()
+            self.interpreter.set_tensor(inp[0]['index'], img_array)
+            self.interpreter.invoke()
+            preds = self.interpreter.get_tensor(out[0]['index'])[0]
+        elif self.model:
+            preds = self.model.predict(img_array, verbose=0)[0]
+        else:
+            return 'unknown', 0.0, img_array, 0
+
+        class_idx  = int(np.argmax(preds))
+        confidence = float(preds[class_idx])
+        class_name = CLASS_NAMES[class_idx]
+        return class_name, confidence, img_array, class_idx
+
+
+classifier = InsectClassifier()
