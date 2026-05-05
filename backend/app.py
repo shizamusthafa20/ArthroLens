@@ -28,7 +28,7 @@ def identify():
     gradcam_image = None
     density = {'level': 'Unknown', 'color': '#888', 'percentage': 0}
 
-    if classifier.model:
+    if classifier.model and img_array is not None:
         heatmap       = generate_gradcam_heatmap(classifier.model, img_array, class_idx)
         density       = compute_density_score(heatmap)
         gradcam_image = overlay_heatmap_on_image(pil_img, heatmap)

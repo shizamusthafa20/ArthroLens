@@ -1,0 +1,4357 @@
+{
+  "rice leaf roller": {
+    "common_name": "Rice Leaf Roller",
+    "scientific_name": "See literature",
+    "risk_level": "Safe",
+    "risk_color": "#33CC33",
+    "rarity": "Common",
+    "active_season": "Year-round",
+    "ecological_role": "Agricultural pest",
+    "fun_fact": "Rice Leaf Roller is a key pest monitored in the IP102 benchmark dataset.",
+    "crop_impact": {
+      "affected_crops": [
+        "rice"
+      ],
+      "damage_type": [
+        "feeding damage",
+        "yield loss",
+        "crop contamination"
+      ],
+      "economic_loss_level": "High",
+      "loss_description": "Rice Leaf Roller causes significant damage to rice. Early detection is critical.",
+      "recommendations": {
+        "low": [
+          "Monitor rice leaf roller activity weekly using sticky traps",
+          "Encourage natural predators in the field",
+          "Record sightings and track population trends"
+        ],
+        "medium": [
+          "Apply neem oil spray every 5-7 days for rice leaf roller",
+          "Remove and destroy heavily infested plant material",
+          "Use row covers to prevent further spread",
+          "Inspect neighbouring fields for spread"
+        ],
+        "high": [
+          "Apply targeted insecticide for rice leaf roller immediately",
+          "Contact your local agricultural extension officer",
+          "Consider crop rotation to break pest cycle",
+          "Document damage for insurance or government support",
+          "Isolate affected area to prevent spread"
+        ]
+      },
+      "organic_control": [
+        "Neem oil",
+        "Pyrethrin",
+        "Diatomaceous earth",
+        "Garlic spray"
+      ],
+      "chemical_control": [
+        "Cypermethrin",
+        "Malathion",
+        "Imidacloprid"
+      ],
+      "biological_control": [
+        "Parasitic wasps",
+        "Predatory beetles",
+        "Lacewings"
+      ]
+    },
+    "human_hazard": {
+      "is_dangerous_to_humans": false,
+      "hazard_level": "Low",
+      "hazard_color": "#33CC33",
+      "venom": false,
+      "bites": false,
+      "disease_transmission": false,
+      "diseases_transmitted": [],
+      "allergy_risk": false,
+      "symptoms_on_contact": [
+        "None expected"
+      ],
+      "first_aid": "No action needed. Wash hands after contact.",
+      "medical_attention": false,
+      "medical_note": "",
+      "vulnerable_groups": []
+    },
+    "precautions": "Wear gloves when handling plants affected by rice leaf roller. Avoid direct contact."
+  },
+  "rice leaf caterpillar": {
+    "common_name": "Rice Leaf Caterpillar",
+    "scientific_name": "See literature",
+    "risk_level": "Safe",
+    "risk_color": "#33CC33",
+    "rarity": "Common",
+    "active_season": "Year-round",
+    "ecological_role": "Agricultural pest",
+    "fun_fact": "Rice Leaf Caterpillar is a key pest monitored in the IP102 benchmark dataset.",
+    "crop_impact": {
+      "affected_crops": [
+        "rice"
+      ],
+      "damage_type": [
+        "feeding damage",
+        "yield loss",
+        "crop contamination"
+      ],
+      "economic_loss_level": "High",
+      "loss_description": "Rice Leaf Caterpillar causes significant damage to rice. Early detection is critical.",
+      "recommendations": {
+        "low": [
+          "Monitor rice leaf caterpillar activity weekly using sticky traps",
+          "Encourage natural predators in the field",
+          "Record sightings and track population trends"
+        ],
+        "medium": [
+          "Apply neem oil spray every 5-7 days for rice leaf caterpillar",
+          "Remove and destroy heavily infested plant material",
+          "Use row covers to prevent further spread",
+          "Inspect neighbouring fields for spread"
+        ],
+        "high": [
+          "Apply targeted insecticide for rice leaf caterpillar immediately",
+          "Contact your local agricultural extension officer",
+          "Consider crop rotation to break pest cycle",
+          "Document damage for insurance or government support",
+          "Isolate affected area to prevent spread"
+        ]
+      },
+      "organic_control": [
+        "Neem oil",
+        "Pyrethrin",
+        "Diatomaceous earth",
+        "Garlic spray"
+      ],
+      "chemical_control": [
+        "Cypermethrin",
+        "Malathion",
+        "Imidacloprid"
+      ],
+      "biological_control": [
+        "Parasitic wasps",
+        "Predatory beetles",
+        "Lacewings"
+      ]
+    },
+    "human_hazard": {
+      "is_dangerous_to_humans": false,
+      "hazard_level": "Low",
+      "hazard_color": "#33CC33",
+      "venom": false,
+      "bites": false,
+      "disease_transmission": false,
+      "diseases_transmitted": [],
+      "allergy_risk": false,
+      "symptoms_on_contact": [
+        "None expected"
+      ],
+      "first_aid": "No action needed. Wash hands after contact.",
+      "medical_attention": false,
+      "medical_note": "",
+      "vulnerable_groups": []
+    },
+    "precautions": "Wear gloves when handling plants affected by rice leaf caterpillar. Avoid direct contact."
+  },
+  "paddy stem maggot": {
+    "common_name": "Paddy Stem Maggot",
+    "scientific_name": "See literature",
+    "risk_level": "Safe",
+    "risk_color": "#33CC33",
+    "rarity": "Common",
+    "active_season": "Year-round",
+    "ecological_role": "Agricultural pest",
+    "fun_fact": "Paddy Stem Maggot is a key pest monitored in the IP102 benchmark dataset.",
+    "crop_impact": {
+      "affected_crops": [
+        "rice",
+        "paddy"
+      ],
+      "damage_type": [
+        "feeding damage",
+        "yield loss",
+        "crop contamination"
+      ],
+      "economic_loss_level": "High",
+      "loss_description": "Paddy Stem Maggot causes significant damage to rice, paddy. Early detection is critical.",
+      "recommendations": {
+        "low": [
+          "Monitor paddy stem maggot activity weekly using sticky traps",
+          "Encourage natural predators in the field",
+          "Record sightings and track population trends"
+        ],
+        "medium": [
+          "Apply neem oil spray every 5-7 days for paddy stem maggot",
+          "Remove and destroy heavily infested plant material",
+          "Use row covers to prevent further spread",
+          "Inspect neighbouring fields for spread"
+        ],
+        "high": [
+          "Apply targeted insecticide for paddy stem maggot immediately",
+          "Contact your local agricultural extension officer",
+          "Consider crop rotation to break pest cycle",
+          "Document damage for insurance or government support",
+          "Isolate affected area to prevent spread"
+        ]
+      },
+      "organic_control": [
+        "Neem oil",
+        "Pyrethrin",
+        "Diatomaceous earth",
+        "Garlic spray"
+      ],
+      "chemical_control": [
+        "Cypermethrin",
+        "Malathion",
+        "Imidacloprid"
+      ],
+      "biological_control": [
+        "Parasitic wasps",
+        "Predatory beetles",
+        "Lacewings"
+      ]
+    },
+    "human_hazard": {
+      "is_dangerous_to_humans": false,
+      "hazard_level": "Low",
+      "hazard_color": "#33CC33",
+      "venom": false,
+      "bites": false,
+      "disease_transmission": false,
+      "diseases_transmitted": [],
+      "allergy_risk": false,
+      "symptoms_on_contact": [
+        "None expected"
+      ],
+      "first_aid": "No action needed. Wash hands after contact.",
+      "medical_attention": false,
+      "medical_note": "",
+      "vulnerable_groups": []
+    },
+    "precautions": "Wear gloves when handling plants affected by paddy stem maggot. Avoid direct contact."
+  },
+  "asiatic rice borer": {
+    "common_name": "Asiatic Rice Borer",
+    "scientific_name": "See literature",
+    "risk_level": "Safe",
+    "risk_color": "#33CC33",
+    "rarity": "Common",
+    "active_season": "Year-round",
+    "ecological_role": "Agricultural pest",
+    "fun_fact": "Asiatic Rice Borer is a key pest monitored in the IP102 benchmark dataset.",
+    "crop_impact": {
+      "affected_crops": [
+        "rice",
+        "sugarcane"
+      ],
+      "damage_type": [
+        "feeding damage",
+        "yield loss",
+        "crop contamination"
+      ],
+      "economic_loss_level": "High",
+      "loss_description": "Asiatic Rice Borer causes significant damage to rice, sugarcane. Early detection is critical.",
+      "recommendations": {
+        "low": [
+          "Monitor asiatic rice borer activity weekly using sticky traps",
+          "Encourage natural predators in the field",
+          "Record sightings and track population trends"
+        ],
+        "medium": [
+          "Apply neem oil spray every 5-7 days for asiatic rice borer",
+          "Remove and destroy heavily infested plant material",
+          "Use row covers to prevent further spread",
+          "Inspect neighbouring fields for spread"
+        ],
+        "high": [
+          "Apply targeted insecticide for asiatic rice borer immediately",
+          "Contact your local agricultural extension officer",
+          "Consider crop rotation to break pest cycle",
+          "Document damage for insurance or government support",
+          "Isolate affected area to prevent spread"
+        ]
+      },
+      "organic_control": [
+        "Neem oil",
+        "Pyrethrin",
+        "Diatomaceous earth",
+        "Garlic spray"
+      ],
+      "chemical_control": [
+        "Cypermethrin",
+        "Malathion",
+        "Imidacloprid"
+      ],
+      "biological_control": [
+        "Parasitic wasps",
+        "Predatory beetles",
+        "Lacewings"
+      ]
+    },
+    "human_hazard": {
+      "is_dangerous_to_humans": false,
+      "hazard_level": "Low",
+      "hazard_color": "#33CC33",
+      "venom": false,
+      "bites": false,
+      "disease_transmission": false,
+      "diseases_transmitted": [],
+      "allergy_risk": false,
+      "symptoms_on_contact": [
+        "None expected"
+      ],
+      "first_aid": "No action needed. Wash hands after contact.",
+      "medical_attention": false,
+      "medical_note": "",
+      "vulnerable_groups": []
+    },
+    "precautions": "Wear gloves when handling plants affected by asiatic rice borer. Avoid direct contact."
+  },
+  "yellow rice borer": {
+    "common_name": "Yellow Rice Borer",
+    "scientific_name": "See literature",
+    "risk_level": "Safe",
+    "risk_color": "#33CC33",
+    "rarity": "Common",
+    "active_season": "Year-round",
+    "ecological_role": "Agricultural pest",
+    "fun_fact": "Yellow Rice Borer is a key pest monitored in the IP102 benchmark dataset.",
+    "crop_impact": {
+      "affected_crops": [
+        "rice"
+      ],
+      "damage_type": [
+        "feeding damage",
+        "yield loss",
+        "crop contamination"
+      ],
+      "economic_loss_level": "High",
+      "loss_description": "Yellow Rice Borer causes significant damage to rice. Early detection is critical.",
+      "recommendations": {
+        "low": [
+          "Monitor yellow rice borer activity weekly using sticky traps",
+          "Encourage natural predators in the field",
+          "Record sightings and track population trends"
+        ],
+        "medium": [
+          "Apply neem oil spray every 5-7 days for yellow rice borer",
+          "Remove and destroy heavily infested plant material",
+          "Use row covers to prevent further spread",
+          "Inspect neighbouring fields for spread"
+        ],
+        "high": [
+          "Apply targeted insecticide for yellow rice borer immediately",
+          "Contact your local agricultural extension officer",
+          "Consider crop rotation to break pest cycle",
+          "Document damage for insurance or government support",
+          "Isolate affected area to prevent spread"
+        ]
+      },
+      "organic_control": [
+        "Neem oil",
+        "Pyrethrin",
+        "Diatomaceous earth",
+        "Garlic spray"
+      ],
+      "chemical_control": [
+        "Cypermethrin",
+        "Malathion",
+        "Imidacloprid"
+      ],
+      "biological_control": [
+        "Parasitic wasps",
+        "Predatory beetles",
+        "Lacewings"
+      ]
+    },
+    "human_hazard": {
+      "is_dangerous_to_humans": false,
+      "hazard_level": "Low",
+      "hazard_color": "#33CC33",
+      "venom": false,
+      "bites": false,
+      "disease_transmission": false,
+      "diseases_transmitted": [],
+      "allergy_risk": false,
+      "symptoms_on_contact": [
+        "None expected"
+      ],
+      "first_aid": "No action needed. Wash hands after contact.",
+      "medical_attention": false,
+      "medical_note": "",
+      "vulnerable_groups": []
+    },
+    "precautions": "Wear gloves when handling plants affected by yellow rice borer. Avoid direct contact."
+  },
+  "rice gall midge": {
+    "common_name": "Rice Gall Midge",
+    "scientific_name": "See literature",
+    "risk_level": "Safe",
+    "risk_color": "#33CC33",
+    "rarity": "Common",
+    "active_season": "Year-round",
+    "ecological_role": "Agricultural pest",
+    "fun_fact": "Rice Gall Midge is a key pest monitored in the IP102 benchmark dataset.",
+    "crop_impact": {
+      "affected_crops": [
+        "rice"
+      ],
+      "damage_type": [
+        "feeding damage",
+        "yield loss",
+        "crop contamination"
+      ],
+      "economic_loss_level": "Medium",
+      "loss_description": "Rice Gall Midge causes significant damage to rice. Early detection is critical.",
+      "recommendations": {
+        "low": [
+          "Monitor rice gall midge activity weekly using sticky traps",
+          "Encourage natural predators in the field",
+          "Record sightings and track population trends"
+        ],
+        "medium": [
+          "Apply neem oil spray every 5-7 days for rice gall midge",
+          "Remove and destroy heavily infested plant material",
+          "Use row covers to prevent further spread",
+          "Inspect neighbouring fields for spread"
+        ],
+        "high": [
+          "Apply targeted insecticide for rice gall midge immediately",
+          "Contact your local agricultural extension officer",
+          "Consider crop rotation to break pest cycle",
+          "Document damage for insurance or government support",
+          "Isolate affected area to prevent spread"
+        ]
+      },
+      "organic_control": [
+        "Neem oil",
+        "Pyrethrin",
+        "Diatomaceous earth",
+        "Garlic spray"
+      ],
+      "chemical_control": [
+        "Cypermethrin",
+        "Malathion",
+        "Imidacloprid"
+      ],
+      "biological_control": [
+        "Parasitic wasps",
+        "Predatory beetles",
+        "Lacewings"
+      ]
+    },
+    "human_hazard": {
+      "is_dangerous_to_humans": false,
+      "hazard_level": "Low",
+      "hazard_color": "#33CC33",
+      "venom": false,
+      "bites": false,
+      "disease_transmission": false,
+      "diseases_transmitted": [],
+      "allergy_risk": false,
+      "symptoms_on_contact": [
+        "None expected"
+      ],
+      "first_aid": "No action needed. Wash hands after contact.",
+      "medical_attention": false,
+      "medical_note": "",
+      "vulnerable_groups": []
+    },
+    "precautions": "Wear gloves when handling plants affected by rice gall midge. Avoid direct contact."
+  },
+  "rice water weevil": {
+    "common_name": "Rice Water Weevil",
+    "scientific_name": "See literature",
+    "risk_level": "Safe",
+    "risk_color": "#33CC33",
+    "rarity": "Common",
+    "active_season": "Year-round",
+    "ecological_role": "Agricultural pest",
+    "fun_fact": "Rice Water Weevil is a key pest monitored in the IP102 benchmark dataset.",
+    "crop_impact": {
+      "affected_crops": [
+        "rice"
+      ],
+      "damage_type": [
+        "feeding damage",
+        "yield loss",
+        "crop contamination"
+      ],
+      "economic_loss_level": "High",
+      "loss_description": "Rice Water Weevil causes significant damage to rice. Early detection is critical.",
+      "recommendations": {
+        "low": [
+          "Monitor rice water weevil activity weekly using sticky traps",
+          "Encourage natural predators in the field",
+          "Record sightings and track population trends"
+        ],
+        "medium": [
+          "Apply neem oil spray every 5-7 days for rice water weevil",
+          "Remove and destroy heavily infested plant material",
+          "Use row covers to prevent further spread",
+          "Inspect neighbouring fields for spread"
+        ],
+        "high": [
+          "Apply targeted insecticide for rice water weevil immediately",
+          "Contact your local agricultural extension officer",
+          "Consider crop rotation to break pest cycle",
+          "Document damage for insurance or government support",
+          "Isolate affected area to prevent spread"
+        ]
+      },
+      "organic_control": [
+        "Neem oil",
+        "Pyrethrin",
+        "Diatomaceous earth",
+        "Garlic spray"
+      ],
+      "chemical_control": [
+        "Cypermethrin",
+        "Malathion",
+        "Imidacloprid"
+      ],
+      "biological_control": [
+        "Parasitic wasps",
+        "Predatory beetles",
+        "Lacewings"
+      ]
+    },
+    "human_hazard": {
+      "is_dangerous_to_humans": false,
+      "hazard_level": "Low",
+      "hazard_color": "#33CC33",
+      "venom": false,
+      "bites": false,
+      "disease_transmission": false,
+      "diseases_transmitted": [],
+      "allergy_risk": false,
+      "symptoms_on_contact": [
+        "None expected"
+      ],
+      "first_aid": "No action needed. Wash hands after contact.",
+      "medical_attention": false,
+      "medical_note": "",
+      "vulnerable_groups": []
+    },
+    "precautions": "Wear gloves when handling plants affected by rice water weevil. Avoid direct contact."
+  },
+  "rice leafhopper": {
+    "common_name": "Rice Leafhopper",
+    "scientific_name": "See literature",
+    "risk_level": "Safe",
+    "risk_color": "#33CC33",
+    "rarity": "Common",
+    "active_season": "Year-round",
+    "ecological_role": "Agricultural pest",
+    "fun_fact": "Rice Leafhopper is a key pest monitored in the IP102 benchmark dataset.",
+    "crop_impact": {
+      "affected_crops": [
+        "rice"
+      ],
+      "damage_type": [
+        "feeding damage",
+        "yield loss",
+        "crop contamination"
+      ],
+      "economic_loss_level": "High",
+      "loss_description": "Rice Leafhopper causes significant damage to rice. Early detection is critical.",
+      "recommendations": {
+        "low": [
+          "Monitor rice leafhopper activity weekly using sticky traps",
+          "Encourage natural predators in the field",
+          "Record sightings and track population trends"
+        ],
+        "medium": [
+          "Apply neem oil spray every 5-7 days for rice leafhopper",
+          "Remove and destroy heavily infested plant material",
+          "Use row covers to prevent further spread",
+          "Inspect neighbouring fields for spread"
+        ],
+        "high": [
+          "Apply targeted insecticide for rice leafhopper immediately",
+          "Contact your local agricultural extension officer",
+          "Consider crop rotation to break pest cycle",
+          "Document damage for insurance or government support",
+          "Isolate affected area to prevent spread"
+        ]
+      },
+      "organic_control": [
+        "Neem oil",
+        "Pyrethrin",
+        "Diatomaceous earth",
+        "Garlic spray"
+      ],
+      "chemical_control": [
+        "Cypermethrin",
+        "Malathion",
+        "Imidacloprid"
+      ],
+      "biological_control": [
+        "Parasitic wasps",
+        "Predatory beetles",
+        "Lacewings"
+      ]
+    },
+    "human_hazard": {
+      "is_dangerous_to_humans": false,
+      "hazard_level": "Low",
+      "hazard_color": "#33CC33",
+      "venom": false,
+      "bites": false,
+      "disease_transmission": false,
+      "diseases_transmitted": [],
+      "allergy_risk": false,
+      "symptoms_on_contact": [
+        "None expected"
+      ],
+      "first_aid": "No action needed. Wash hands after contact.",
+      "medical_attention": false,
+      "medical_note": "",
+      "vulnerable_groups": []
+    },
+    "precautions": "Wear gloves when handling plants affected by rice leafhopper. Avoid direct contact."
+  },
+  "grain spreader thrips": {
+    "common_name": "Grain Spreader Thrips",
+    "scientific_name": "See literature",
+    "risk_level": "Safe",
+    "risk_color": "#33CC33",
+    "rarity": "Common",
+    "active_season": "Year-round",
+    "ecological_role": "Agricultural pest",
+    "fun_fact": "Grain Spreader Thrips is a key pest monitored in the IP102 benchmark dataset.",
+    "crop_impact": {
+      "affected_crops": [
+        "rice",
+        "wheat"
+      ],
+      "damage_type": [
+        "feeding damage",
+        "yield loss",
+        "crop contamination"
+      ],
+      "economic_loss_level": "Medium",
+      "loss_description": "Grain Spreader Thrips causes significant damage to rice, wheat. Early detection is critical.",
+      "recommendations": {
+        "low": [
+          "Monitor grain spreader thrips activity weekly using sticky traps",
+          "Encourage natural predators in the field",
+          "Record sightings and track population trends"
+        ],
+        "medium": [
+          "Apply neem oil spray every 5-7 days for grain spreader thrips",
+          "Remove and destroy heavily infested plant material",
+          "Use row covers to prevent further spread",
+          "Inspect neighbouring fields for spread"
+        ],
+        "high": [
+          "Apply targeted insecticide for grain spreader thrips immediately",
+          "Contact your local agricultural extension officer",
+          "Consider crop rotation to break pest cycle",
+          "Document damage for insurance or government support",
+          "Isolate affected area to prevent spread"
+        ]
+      },
+      "organic_control": [
+        "Neem oil",
+        "Pyrethrin",
+        "Diatomaceous earth",
+        "Garlic spray"
+      ],
+      "chemical_control": [
+        "Cypermethrin",
+        "Malathion",
+        "Imidacloprid"
+      ],
+      "biological_control": [
+        "Parasitic wasps",
+        "Predatory beetles",
+        "Lacewings"
+      ]
+    },
+    "human_hazard": {
+      "is_dangerous_to_humans": false,
+      "hazard_level": "Low",
+      "hazard_color": "#33CC33",
+      "venom": false,
+      "bites": false,
+      "disease_transmission": false,
+      "diseases_transmitted": [],
+      "allergy_risk": false,
+      "symptoms_on_contact": [
+        "None expected"
+      ],
+      "first_aid": "No action needed. Wash hands after contact.",
+      "medical_attention": false,
+      "medical_note": "",
+      "vulnerable_groups": []
+    },
+    "precautions": "Wear gloves when handling plants affected by grain spreader thrips. Avoid direct contact."
+  },
+  "rice shell pest": {
+    "common_name": "Rice Shell Pest",
+    "scientific_name": "See literature",
+    "risk_level": "Safe",
+    "risk_color": "#33CC33",
+    "rarity": "Common",
+    "active_season": "Year-round",
+    "ecological_role": "Agricultural pest",
+    "fun_fact": "Rice Shell Pest is a key pest monitored in the IP102 benchmark dataset.",
+    "crop_impact": {
+      "affected_crops": [
+        "rice"
+      ],
+      "damage_type": [
+        "feeding damage",
+        "yield loss",
+        "crop contamination"
+      ],
+      "economic_loss_level": "Medium",
+      "loss_description": "Rice Shell Pest causes significant damage to rice. Early detection is critical.",
+      "recommendations": {
+        "low": [
+          "Monitor rice shell pest activity weekly using sticky traps",
+          "Encourage natural predators in the field",
+          "Record sightings and track population trends"
+        ],
+        "medium": [
+          "Apply neem oil spray every 5-7 days for rice shell pest",
+          "Remove and destroy heavily infested plant material",
+          "Use row covers to prevent further spread",
+          "Inspect neighbouring fields for spread"
+        ],
+        "high": [
+          "Apply targeted insecticide for rice shell pest immediately",
+          "Contact your local agricultural extension officer",
+          "Consider crop rotation to break pest cycle",
+          "Document damage for insurance or government support",
+          "Isolate affected area to prevent spread"
+        ]
+      },
+      "organic_control": [
+        "Neem oil",
+        "Pyrethrin",
+        "Diatomaceous earth",
+        "Garlic spray"
+      ],
+      "chemical_control": [
+        "Cypermethrin",
+        "Malathion",
+        "Imidacloprid"
+      ],
+      "biological_control": [
+        "Parasitic wasps",
+        "Predatory beetles",
+        "Lacewings"
+      ]
+    },
+    "human_hazard": {
+      "is_dangerous_to_humans": false,
+      "hazard_level": "Low",
+      "hazard_color": "#33CC33",
+      "venom": false,
+      "bites": false,
+      "disease_transmission": false,
+      "diseases_transmitted": [],
+      "allergy_risk": false,
+      "symptoms_on_contact": [
+        "None expected"
+      ],
+      "first_aid": "No action needed. Wash hands after contact.",
+      "medical_attention": false,
+      "medical_note": "",
+      "vulnerable_groups": []
+    },
+    "precautions": "Wear gloves when handling plants affected by rice shell pest. Avoid direct contact."
+  },
+  "grub": {
+    "common_name": "Grub",
+    "scientific_name": "See literature",
+    "risk_level": "Safe",
+    "risk_color": "#33CC33",
+    "rarity": "Common",
+    "active_season": "Year-round",
+    "ecological_role": "Agricultural pest",
+    "fun_fact": "Grub is a key pest monitored in the IP102 benchmark dataset.",
+    "crop_impact": {
+      "affected_crops": [
+        "sugarcane",
+        "maize",
+        "vegetables"
+      ],
+      "damage_type": [
+        "feeding damage",
+        "yield loss",
+        "crop contamination"
+      ],
+      "economic_loss_level": "High",
+      "loss_description": "Grub causes significant damage to sugarcane, maize, vegetables. Early detection is critical.",
+      "recommendations": {
+        "low": [
+          "Monitor grub activity weekly using sticky traps",
+          "Encourage natural predators in the field",
+          "Record sightings and track population trends"
+        ],
+        "medium": [
+          "Apply neem oil spray every 5-7 days for grub",
+          "Remove and destroy heavily infested plant material",
+          "Use row covers to prevent further spread",
+          "Inspect neighbouring fields for spread"
+        ],
+        "high": [
+          "Apply targeted insecticide for grub immediately",
+          "Contact your local agricultural extension officer",
+          "Consider crop rotation to break pest cycle",
+          "Document damage for insurance or government support",
+          "Isolate affected area to prevent spread"
+        ]
+      },
+      "organic_control": [
+        "Neem oil",
+        "Pyrethrin",
+        "Diatomaceous earth",
+        "Garlic spray"
+      ],
+      "chemical_control": [
+        "Cypermethrin",
+        "Malathion",
+        "Imidacloprid"
+      ],
+      "biological_control": [
+        "Parasitic wasps",
+        "Predatory beetles",
+        "Lacewings"
+      ]
+    },
+    "human_hazard": {
+      "is_dangerous_to_humans": false,
+      "hazard_level": "Low",
+      "hazard_color": "#33CC33",
+      "venom": false,
+      "bites": false,
+      "disease_transmission": false,
+      "diseases_transmitted": [],
+      "allergy_risk": false,
+      "symptoms_on_contact": [
+        "None expected"
+      ],
+      "first_aid": "No action needed. Wash hands after contact.",
+      "medical_attention": false,
+      "medical_note": "",
+      "vulnerable_groups": []
+    },
+    "precautions": "Wear gloves when handling plants affected by grub. Avoid direct contact."
+  },
+  "mole cricket": {
+    "common_name": "Mole Cricket",
+    "scientific_name": "See literature",
+    "risk_level": "Safe",
+    "risk_color": "#33CC33",
+    "rarity": "Common",
+    "active_season": "Year-round",
+    "ecological_role": "Agricultural pest",
+    "fun_fact": "Mole Cricket is a key pest monitored in the IP102 benchmark dataset.",
+    "crop_impact": {
+      "affected_crops": [
+        "vegetables",
+        "turf",
+        "crops"
+      ],
+      "damage_type": [
+        "feeding damage",
+        "yield loss",
+        "crop contamination"
+      ],
+      "economic_loss_level": "Medium",
+      "loss_description": "Mole Cricket causes significant damage to vegetables, turf, crops. Early detection is critical.",
+      "recommendations": {
+        "low": [
+          "Monitor mole cricket activity weekly using sticky traps",
+          "Encourage natural predators in the field",
+          "Record sightings and track population trends"
+        ],
+        "medium": [
+          "Apply neem oil spray every 5-7 days for mole cricket",
+          "Remove and destroy heavily infested plant material",
+          "Use row covers to prevent further spread",
+          "Inspect neighbouring fields for spread"
+        ],
+        "high": [
+          "Apply targeted insecticide for mole cricket immediately",
+          "Contact your local agricultural extension officer",
+          "Consider crop rotation to break pest cycle",
+          "Document damage for insurance or government support",
+          "Isolate affected area to prevent spread"
+        ]
+      },
+      "organic_control": [
+        "Neem oil",
+        "Pyrethrin",
+        "Diatomaceous earth",
+        "Garlic spray"
+      ],
+      "chemical_control": [
+        "Cypermethrin",
+        "Malathion",
+        "Imidacloprid"
+      ],
+      "biological_control": [
+        "Parasitic wasps",
+        "Predatory beetles",
+        "Lacewings"
+      ]
+    },
+    "human_hazard": {
+      "is_dangerous_to_humans": false,
+      "hazard_level": "Low",
+      "hazard_color": "#33CC33",
+      "venom": false,
+      "bites": false,
+      "disease_transmission": false,
+      "diseases_transmitted": [],
+      "allergy_risk": false,
+      "symptoms_on_contact": [
+        "None expected"
+      ],
+      "first_aid": "No action needed. Wash hands after contact.",
+      "medical_attention": false,
+      "medical_note": "",
+      "vulnerable_groups": []
+    },
+    "precautions": "Wear gloves when handling plants affected by mole cricket. Avoid direct contact."
+  },
+  "wireworm": {
+    "common_name": "Wireworm",
+    "scientific_name": "See literature",
+    "risk_level": "Safe",
+    "risk_color": "#33CC33",
+    "rarity": "Common",
+    "active_season": "Year-round",
+    "ecological_role": "Agricultural pest",
+    "fun_fact": "Wireworm is a key pest monitored in the IP102 benchmark dataset.",
+    "crop_impact": {
+      "affected_crops": [
+        "potato",
+        "maize",
+        "wheat",
+        "vegetables"
+      ],
+      "damage_type": [
+        "feeding damage",
+        "yield loss",
+        "crop contamination"
+      ],
+      "economic_loss_level": "High",
+      "loss_description": "Wireworm causes significant damage to potato, maize, wheat, vegetables. Early detection is critical.",
+      "recommendations": {
+        "low": [
+          "Monitor wireworm activity weekly using sticky traps",
+          "Encourage natural predators in the field",
+          "Record sightings and track population trends"
+        ],
+        "medium": [
+          "Apply neem oil spray every 5-7 days for wireworm",
+          "Remove and destroy heavily infested plant material",
+          "Use row covers to prevent further spread",
+          "Inspect neighbouring fields for spread"
+        ],
+        "high": [
+          "Apply targeted insecticide for wireworm immediately",
+          "Contact your local agricultural extension officer",
+          "Consider crop rotation to break pest cycle",
+          "Document damage for insurance or government support",
+          "Isolate affected area to prevent spread"
+        ]
+      },
+      "organic_control": [
+        "Neem oil",
+        "Pyrethrin",
+        "Diatomaceous earth",
+        "Garlic spray"
+      ],
+      "chemical_control": [
+        "Cypermethrin",
+        "Malathion",
+        "Imidacloprid"
+      ],
+      "biological_control": [
+        "Parasitic wasps",
+        "Predatory beetles",
+        "Lacewings"
+      ]
+    },
+    "human_hazard": {
+      "is_dangerous_to_humans": false,
+      "hazard_level": "Low",
+      "hazard_color": "#33CC33",
+      "venom": false,
+      "bites": false,
+      "disease_transmission": false,
+      "diseases_transmitted": [],
+      "allergy_risk": false,
+      "symptoms_on_contact": [
+        "None expected"
+      ],
+      "first_aid": "No action needed. Wash hands after contact.",
+      "medical_attention": false,
+      "medical_note": "",
+      "vulnerable_groups": []
+    },
+    "precautions": "Wear gloves when handling plants affected by wireworm. Avoid direct contact."
+  },
+  "white margined moth": {
+    "common_name": "White Margined Moth",
+    "scientific_name": "See literature",
+    "risk_level": "Safe",
+    "risk_color": "#33CC33",
+    "rarity": "Common",
+    "active_season": "Year-round",
+    "ecological_role": "Agricultural pest",
+    "fun_fact": "White Margined Moth is a key pest monitored in the IP102 benchmark dataset.",
+    "crop_impact": {
+      "affected_crops": [
+        "rice",
+        "wheat"
+      ],
+      "damage_type": [
+        "feeding damage",
+        "yield loss",
+        "crop contamination"
+      ],
+      "economic_loss_level": "High",
+      "loss_description": "White Margined Moth causes significant damage to rice, wheat. Early detection is critical.",
+      "recommendations": {
+        "low": [
+          "Monitor white margined moth activity weekly using sticky traps",
+          "Encourage natural predators in the field",
+          "Record sightings and track population trends"
+        ],
+        "medium": [
+          "Apply neem oil spray every 5-7 days for white margined moth",
+          "Remove and destroy heavily infested plant material",
+          "Use row covers to prevent further spread",
+          "Inspect neighbouring fields for spread"
+        ],
+        "high": [
+          "Apply targeted insecticide for white margined moth immediately",
+          "Contact your local agricultural extension officer",
+          "Consider crop rotation to break pest cycle",
+          "Document damage for insurance or government support",
+          "Isolate affected area to prevent spread"
+        ]
+      },
+      "organic_control": [
+        "Neem oil",
+        "Pyrethrin",
+        "Diatomaceous earth",
+        "Garlic spray"
+      ],
+      "chemical_control": [
+        "Cypermethrin",
+        "Malathion",
+        "Imidacloprid"
+      ],
+      "biological_control": [
+        "Parasitic wasps",
+        "Predatory beetles",
+        "Lacewings"
+      ]
+    },
+    "human_hazard": {
+      "is_dangerous_to_humans": false,
+      "hazard_level": "Low",
+      "hazard_color": "#33CC33",
+      "venom": false,
+      "bites": false,
+      "disease_transmission": false,
+      "diseases_transmitted": [],
+      "allergy_risk": false,
+      "symptoms_on_contact": [
+        "None expected"
+      ],
+      "first_aid": "No action needed. Wash hands after contact.",
+      "medical_attention": false,
+      "medical_note": "",
+      "vulnerable_groups": []
+    },
+    "precautions": "Wear gloves when handling plants affected by white margined moth. Avoid direct contact."
+  },
+  "black cutworm": {
+    "common_name": "Black Cutworm",
+    "scientific_name": "See literature",
+    "risk_level": "Safe",
+    "risk_color": "#33CC33",
+    "rarity": "Common",
+    "active_season": "Year-round",
+    "ecological_role": "Agricultural pest",
+    "fun_fact": "Black Cutworm is a key pest monitored in the IP102 benchmark dataset.",
+    "crop_impact": {
+      "affected_crops": [
+        "maize",
+        "turf",
+        "vegetables"
+      ],
+      "damage_type": [
+        "feeding damage",
+        "yield loss",
+        "crop contamination"
+      ],
+      "economic_loss_level": "High",
+      "loss_description": "Black Cutworm causes significant damage to maize, turf, vegetables. Early detection is critical.",
+      "recommendations": {
+        "low": [
+          "Monitor black cutworm activity weekly using sticky traps",
+          "Encourage natural predators in the field",
+          "Record sightings and track population trends"
+        ],
+        "medium": [
+          "Apply neem oil spray every 5-7 days for black cutworm",
+          "Remove and destroy heavily infested plant material",
+          "Use row covers to prevent further spread",
+          "Inspect neighbouring fields for spread"
+        ],
+        "high": [
+          "Apply targeted insecticide for black cutworm immediately",
+          "Contact your local agricultural extension officer",
+          "Consider crop rotation to break pest cycle",
+          "Document damage for insurance or government support",
+          "Isolate affected area to prevent spread"
+        ]
+      },
+      "organic_control": [
+        "Neem oil",
+        "Pyrethrin",
+        "Diatomaceous earth",
+        "Garlic spray"
+      ],
+      "chemical_control": [
+        "Cypermethrin",
+        "Malathion",
+        "Imidacloprid"
+      ],
+      "biological_control": [
+        "Parasitic wasps",
+        "Predatory beetles",
+        "Lacewings"
+      ]
+    },
+    "human_hazard": {
+      "is_dangerous_to_humans": false,
+      "hazard_level": "Low",
+      "hazard_color": "#33CC33",
+      "venom": false,
+      "bites": false,
+      "disease_transmission": false,
+      "diseases_transmitted": [],
+      "allergy_risk": false,
+      "symptoms_on_contact": [
+        "None expected"
+      ],
+      "first_aid": "No action needed. Wash hands after contact.",
+      "medical_attention": false,
+      "medical_note": "",
+      "vulnerable_groups": []
+    },
+    "precautions": "Wear gloves when handling plants affected by black cutworm. Avoid direct contact."
+  },
+  "large cutworm": {
+    "common_name": "Large Cutworm",
+    "scientific_name": "See literature",
+    "risk_level": "Safe",
+    "risk_color": "#33CC33",
+    "rarity": "Common",
+    "active_season": "Year-round",
+    "ecological_role": "Agricultural pest",
+    "fun_fact": "Large Cutworm is a key pest monitored in the IP102 benchmark dataset.",
+    "crop_impact": {
+      "affected_crops": [
+        "maize",
+        "vegetables"
+      ],
+      "damage_type": [
+        "feeding damage",
+        "yield loss",
+        "crop contamination"
+      ],
+      "economic_loss_level": "High",
+      "loss_description": "Large Cutworm causes significant damage to maize, vegetables. Early detection is critical.",
+      "recommendations": {
+        "low": [
+          "Monitor large cutworm activity weekly using sticky traps",
+          "Encourage natural predators in the field",
+          "Record sightings and track population trends"
+        ],
+        "medium": [
+          "Apply neem oil spray every 5-7 days for large cutworm",
+          "Remove and destroy heavily infested plant material",
+          "Use row covers to prevent further spread",
+          "Inspect neighbouring fields for spread"
+        ],
+        "high": [
+          "Apply targeted insecticide for large cutworm immediately",
+          "Contact your local agricultural extension officer",
+          "Consider crop rotation to break pest cycle",
+          "Document damage for insurance or government support",
+          "Isolate affected area to prevent spread"
+        ]
+      },
+      "organic_control": [
+        "Neem oil",
+        "Pyrethrin",
+        "Diatomaceous earth",
+        "Garlic spray"
+      ],
+      "chemical_control": [
+        "Cypermethrin",
+        "Malathion",
+        "Imidacloprid"
+      ],
+      "biological_control": [
+        "Parasitic wasps",
+        "Predatory beetles",
+        "Lacewings"
+      ]
+    },
+    "human_hazard": {
+      "is_dangerous_to_humans": false,
+      "hazard_level": "Low",
+      "hazard_color": "#33CC33",
+      "venom": false,
+      "bites": false,
+      "disease_transmission": false,
+      "diseases_transmitted": [],
+      "allergy_risk": false,
+      "symptoms_on_contact": [
+        "None expected"
+      ],
+      "first_aid": "No action needed. Wash hands after contact.",
+      "medical_attention": false,
+      "medical_note": "",
+      "vulnerable_groups": []
+    },
+    "precautions": "Wear gloves when handling plants affected by large cutworm. Avoid direct contact."
+  },
+  "yellow cutworm": {
+    "common_name": "Yellow Cutworm",
+    "scientific_name": "See literature",
+    "risk_level": "Safe",
+    "risk_color": "#33CC33",
+    "rarity": "Common",
+    "active_season": "Year-round",
+    "ecological_role": "Agricultural pest",
+    "fun_fact": "Yellow Cutworm is a key pest monitored in the IP102 benchmark dataset.",
+    "crop_impact": {
+      "affected_crops": [
+        "maize",
+        "vegetables"
+      ],
+      "damage_type": [
+        "feeding damage",
+        "yield loss",
+        "crop contamination"
+      ],
+      "economic_loss_level": "High",
+      "loss_description": "Yellow Cutworm causes significant damage to maize, vegetables. Early detection is critical.",
+      "recommendations": {
+        "low": [
+          "Monitor yellow cutworm activity weekly using sticky traps",
+          "Encourage natural predators in the field",
+          "Record sightings and track population trends"
+        ],
+        "medium": [
+          "Apply neem oil spray every 5-7 days for yellow cutworm",
+          "Remove and destroy heavily infested plant material",
+          "Use row covers to prevent further spread",
+          "Inspect neighbouring fields for spread"
+        ],
+        "high": [
+          "Apply targeted insecticide for yellow cutworm immediately",
+          "Contact your local agricultural extension officer",
+          "Consider crop rotation to break pest cycle",
+          "Document damage for insurance or government support",
+          "Isolate affected area to prevent spread"
+        ]
+      },
+      "organic_control": [
+        "Neem oil",
+        "Pyrethrin",
+        "Diatomaceous earth",
+        "Garlic spray"
+      ],
+      "chemical_control": [
+        "Cypermethrin",
+        "Malathion",
+        "Imidacloprid"
+      ],
+      "biological_control": [
+        "Parasitic wasps",
+        "Predatory beetles",
+        "Lacewings"
+      ]
+    },
+    "human_hazard": {
+      "is_dangerous_to_humans": false,
+      "hazard_level": "Low",
+      "hazard_color": "#33CC33",
+      "venom": false,
+      "bites": false,
+      "disease_transmission": false,
+      "diseases_transmitted": [],
+      "allergy_risk": false,
+      "symptoms_on_contact": [
+        "None expected"
+      ],
+      "first_aid": "No action needed. Wash hands after contact.",
+      "medical_attention": false,
+      "medical_note": "",
+      "vulnerable_groups": []
+    },
+    "precautions": "Wear gloves when handling plants affected by yellow cutworm. Avoid direct contact."
+  },
+  "red spider": {
+    "common_name": "Red Spider",
+    "scientific_name": "See literature",
+    "risk_level": "Caution",
+    "risk_color": "#FFA500",
+    "rarity": "Common",
+    "active_season": "Year-round",
+    "ecological_role": "Agricultural pest",
+    "fun_fact": "Red Spider is a key pest monitored in the IP102 benchmark dataset.",
+    "crop_impact": {
+      "affected_crops": [
+        "fruit trees",
+        "vegetables",
+        "cotton"
+      ],
+      "damage_type": [
+        "feeding damage",
+        "yield loss",
+        "crop contamination"
+      ],
+      "economic_loss_level": "Medium",
+      "loss_description": "Red Spider causes significant damage to fruit trees, vegetables, cotton. Early detection is critical.",
+      "recommendations": {
+        "low": [
+          "Monitor red spider activity weekly using sticky traps",
+          "Encourage natural predators in the field",
+          "Record sightings and track population trends"
+        ],
+        "medium": [
+          "Apply neem oil spray every 5-7 days for red spider",
+          "Remove and destroy heavily infested plant material",
+          "Use row covers to prevent further spread",
+          "Inspect neighbouring fields for spread"
+        ],
+        "high": [
+          "Apply targeted insecticide for red spider immediately",
+          "Contact your local agricultural extension officer",
+          "Consider crop rotation to break pest cycle",
+          "Document damage for insurance or government support",
+          "Isolate affected area to prevent spread"
+        ]
+      },
+      "organic_control": [
+        "Neem oil",
+        "Pyrethrin",
+        "Diatomaceous earth",
+        "Garlic spray"
+      ],
+      "chemical_control": [
+        "Cypermethrin",
+        "Malathion",
+        "Imidacloprid"
+      ],
+      "biological_control": [
+        "Parasitic wasps",
+        "Predatory beetles",
+        "Lacewings"
+      ]
+    },
+    "human_hazard": {
+      "is_dangerous_to_humans": true,
+      "hazard_level": "Moderate",
+      "hazard_color": "#FFA500",
+      "venom": false,
+      "bites": true,
+      "disease_transmission": false,
+      "diseases_transmitted": [],
+      "allergy_risk": true,
+      "symptoms_on_contact": [
+        "Skin irritation"
+      ],
+      "first_aid": "Wash affected area with soap and water. Apply antihistamine if needed.",
+      "medical_attention": false,
+      "medical_note": "",
+      "vulnerable_groups": [
+        "Children",
+        "Elderly",
+        "People with allergies"
+      ]
+    },
+    "precautions": "Wear gloves when handling plants affected by red spider. Avoid direct contact."
+  },
+  "corn borer": {
+    "common_name": "Corn Borer",
+    "scientific_name": "See literature",
+    "risk_level": "Safe",
+    "risk_color": "#33CC33",
+    "rarity": "Common",
+    "active_season": "Year-round",
+    "ecological_role": "Agricultural pest",
+    "fun_fact": "Corn Borer is a key pest monitored in the IP102 benchmark dataset.",
+    "crop_impact": {
+      "affected_crops": [
+        "maize",
+        "sorghum"
+      ],
+      "damage_type": [
+        "feeding damage",
+        "yield loss",
+        "crop contamination"
+      ],
+      "economic_loss_level": "High",
+      "loss_description": "Corn Borer causes significant damage to maize, sorghum. Early detection is critical.",
+      "recommendations": {
+        "low": [
+          "Monitor corn borer activity weekly using sticky traps",
+          "Encourage natural predators in the field",
+          "Record sightings and track population trends"
+        ],
+        "medium": [
+          "Apply neem oil spray every 5-7 days for corn borer",
+          "Remove and destroy heavily infested plant material",
+          "Use row covers to prevent further spread",
+          "Inspect neighbouring fields for spread"
+        ],
+        "high": [
+          "Apply targeted insecticide for corn borer immediately",
+          "Contact your local agricultural extension officer",
+          "Consider crop rotation to break pest cycle",
+          "Document damage for insurance or government support",
+          "Isolate affected area to prevent spread"
+        ]
+      },
+      "organic_control": [
+        "Neem oil",
+        "Pyrethrin",
+        "Diatomaceous earth",
+        "Garlic spray"
+      ],
+      "chemical_control": [
+        "Cypermethrin",
+        "Malathion",
+        "Imidacloprid"
+      ],
+      "biological_control": [
+        "Parasitic wasps",
+        "Predatory beetles",
+        "Lacewings"
+      ]
+    },
+    "human_hazard": {
+      "is_dangerous_to_humans": false,
+      "hazard_level": "Low",
+      "hazard_color": "#33CC33",
+      "venom": false,
+      "bites": false,
+      "disease_transmission": false,
+      "diseases_transmitted": [],
+      "allergy_risk": false,
+      "symptoms_on_contact": [
+        "None expected"
+      ],
+      "first_aid": "No action needed. Wash hands after contact.",
+      "medical_attention": false,
+      "medical_note": "",
+      "vulnerable_groups": []
+    },
+    "precautions": "Wear gloves when handling plants affected by corn borer. Avoid direct contact."
+  },
+  "army worm": {
+    "common_name": "Army Worm",
+    "scientific_name": "See literature",
+    "risk_level": "Safe",
+    "risk_color": "#33CC33",
+    "rarity": "Common",
+    "active_season": "Year-round",
+    "ecological_role": "Agricultural pest",
+    "fun_fact": "Army Worm is a key pest monitored in the IP102 benchmark dataset.",
+    "crop_impact": {
+      "affected_crops": [
+        "maize",
+        "wheat",
+        "rice",
+        "pasture"
+      ],
+      "damage_type": [
+        "feeding damage",
+        "yield loss",
+        "crop contamination"
+      ],
+      "economic_loss_level": "High",
+      "loss_description": "Army Worm causes significant damage to maize, wheat, rice, pasture. Early detection is critical.",
+      "recommendations": {
+        "low": [
+          "Monitor army worm activity weekly using sticky traps",
+          "Encourage natural predators in the field",
+          "Record sightings and track population trends"
+        ],
+        "medium": [
+          "Apply neem oil spray every 5-7 days for army worm",
+          "Remove and destroy heavily infested plant material",
+          "Use row covers to prevent further spread",
+          "Inspect neighbouring fields for spread"
+        ],
+        "high": [
+          "Apply targeted insecticide for army worm immediately",
+          "Contact your local agricultural extension officer",
+          "Consider crop rotation to break pest cycle",
+          "Document damage for insurance or government support",
+          "Isolate affected area to prevent spread"
+        ]
+      },
+      "organic_control": [
+        "Neem oil",
+        "Pyrethrin",
+        "Diatomaceous earth",
+        "Garlic spray"
+      ],
+      "chemical_control": [
+        "Cypermethrin",
+        "Malathion",
+        "Imidacloprid"
+      ],
+      "biological_control": [
+        "Parasitic wasps",
+        "Predatory beetles",
+        "Lacewings"
+      ]
+    },
+    "human_hazard": {
+      "is_dangerous_to_humans": false,
+      "hazard_level": "Low",
+      "hazard_color": "#33CC33",
+      "venom": false,
+      "bites": false,
+      "disease_transmission": false,
+      "diseases_transmitted": [],
+      "allergy_risk": false,
+      "symptoms_on_contact": [
+        "None expected"
+      ],
+      "first_aid": "No action needed. Wash hands after contact.",
+      "medical_attention": false,
+      "medical_note": "",
+      "vulnerable_groups": []
+    },
+    "precautions": "Wear gloves when handling plants affected by army worm. Avoid direct contact."
+  },
+  "aphids": {
+    "common_name": "Aphids",
+    "scientific_name": "See literature",
+    "risk_level": "Safe",
+    "risk_color": "#33CC33",
+    "rarity": "Common",
+    "active_season": "Year-round",
+    "ecological_role": "Agricultural pest",
+    "fun_fact": "Aphids is a key pest monitored in the IP102 benchmark dataset.",
+    "crop_impact": {
+      "affected_crops": [
+        "wheat",
+        "rice",
+        "vegetables",
+        "fruit trees"
+      ],
+      "damage_type": [
+        "feeding damage",
+        "yield loss",
+        "crop contamination"
+      ],
+      "economic_loss_level": "High",
+      "loss_description": "Aphids causes significant damage to wheat, rice, vegetables, fruit trees. Early detection is critical.",
+      "recommendations": {
+        "low": [
+          "Monitor aphids activity weekly using sticky traps",
+          "Encourage natural predators in the field",
+          "Record sightings and track population trends"
+        ],
+        "medium": [
+          "Apply neem oil spray every 5-7 days for aphids",
+          "Remove and destroy heavily infested plant material",
+          "Use row covers to prevent further spread",
+          "Inspect neighbouring fields for spread"
+        ],
+        "high": [
+          "Apply targeted insecticide for aphids immediately",
+          "Contact your local agricultural extension officer",
+          "Consider crop rotation to break pest cycle",
+          "Document damage for insurance or government support",
+          "Isolate affected area to prevent spread"
+        ]
+      },
+      "organic_control": [
+        "Neem oil",
+        "Pyrethrin",
+        "Diatomaceous earth",
+        "Garlic spray"
+      ],
+      "chemical_control": [
+        "Cypermethrin",
+        "Malathion",
+        "Imidacloprid"
+      ],
+      "biological_control": [
+        "Parasitic wasps",
+        "Predatory beetles",
+        "Lacewings"
+      ]
+    },
+    "human_hazard": {
+      "is_dangerous_to_humans": false,
+      "hazard_level": "Low",
+      "hazard_color": "#33CC33",
+      "venom": false,
+      "bites": false,
+      "disease_transmission": false,
+      "diseases_transmitted": [],
+      "allergy_risk": false,
+      "symptoms_on_contact": [
+        "None expected"
+      ],
+      "first_aid": "No action needed. Wash hands after contact.",
+      "medical_attention": false,
+      "medical_note": "",
+      "vulnerable_groups": []
+    },
+    "precautions": "Wear gloves when handling plants affected by aphids. Avoid direct contact."
+  },
+  "Potosiabre vitarsis": {
+    "common_name": "Potosiabre Vitarsis",
+    "scientific_name": "See literature",
+    "risk_level": "Safe",
+    "risk_color": "#33CC33",
+    "rarity": "Common",
+    "active_season": "Year-round",
+    "ecological_role": "Agricultural pest",
+    "fun_fact": "Potosiabre Vitarsis is a key pest monitored in the IP102 benchmark dataset.",
+    "crop_impact": {
+      "affected_crops": [
+        "various crops"
+      ],
+      "damage_type": [
+        "feeding damage",
+        "yield loss",
+        "crop contamination"
+      ],
+      "economic_loss_level": "Medium",
+      "loss_description": "Potosiabre Vitarsis causes significant damage to various crops. Early detection is critical.",
+      "recommendations": {
+        "low": [
+          "Monitor Potosiabre vitarsis activity weekly using sticky traps",
+          "Encourage natural predators in the field",
+          "Record sightings and track population trends"
+        ],
+        "medium": [
+          "Apply neem oil spray every 5-7 days for Potosiabre vitarsis",
+          "Remove and destroy heavily infested plant material",
+          "Use row covers to prevent further spread",
+          "Inspect neighbouring fields for spread"
+        ],
+        "high": [
+          "Apply targeted insecticide for Potosiabre vitarsis immediately",
+          "Contact your local agricultural extension officer",
+          "Consider crop rotation to break pest cycle",
+          "Document damage for insurance or government support",
+          "Isolate affected area to prevent spread"
+        ]
+      },
+      "organic_control": [
+        "Neem oil",
+        "Pyrethrin",
+        "Diatomaceous earth",
+        "Garlic spray"
+      ],
+      "chemical_control": [
+        "Cypermethrin",
+        "Malathion",
+        "Imidacloprid"
+      ],
+      "biological_control": [
+        "Parasitic wasps",
+        "Predatory beetles",
+        "Lacewings"
+      ]
+    },
+    "human_hazard": {
+      "is_dangerous_to_humans": false,
+      "hazard_level": "Low",
+      "hazard_color": "#33CC33",
+      "venom": false,
+      "bites": false,
+      "disease_transmission": false,
+      "diseases_transmitted": [],
+      "allergy_risk": false,
+      "symptoms_on_contact": [
+        "None expected"
+      ],
+      "first_aid": "No action needed. Wash hands after contact.",
+      "medical_attention": false,
+      "medical_note": "",
+      "vulnerable_groups": []
+    },
+    "precautions": "Wear gloves when handling plants affected by Potosiabre vitarsis. Avoid direct contact."
+  },
+  "peach borer": {
+    "common_name": "Peach Borer",
+    "scientific_name": "See literature",
+    "risk_level": "Safe",
+    "risk_color": "#33CC33",
+    "rarity": "Common",
+    "active_season": "Year-round",
+    "ecological_role": "Agricultural pest",
+    "fun_fact": "Peach Borer is a key pest monitored in the IP102 benchmark dataset.",
+    "crop_impact": {
+      "affected_crops": [
+        "peach",
+        "cherry",
+        "plum",
+        "apricot"
+      ],
+      "damage_type": [
+        "feeding damage",
+        "yield loss",
+        "crop contamination"
+      ],
+      "economic_loss_level": "Medium",
+      "loss_description": "Peach Borer causes significant damage to peach, cherry, plum, apricot. Early detection is critical.",
+      "recommendations": {
+        "low": [
+          "Monitor peach borer activity weekly using sticky traps",
+          "Encourage natural predators in the field",
+          "Record sightings and track population trends"
+        ],
+        "medium": [
+          "Apply neem oil spray every 5-7 days for peach borer",
+          "Remove and destroy heavily infested plant material",
+          "Use row covers to prevent further spread",
+          "Inspect neighbouring fields for spread"
+        ],
+        "high": [
+          "Apply targeted insecticide for peach borer immediately",
+          "Contact your local agricultural extension officer",
+          "Consider crop rotation to break pest cycle",
+          "Document damage for insurance or government support",
+          "Isolate affected area to prevent spread"
+        ]
+      },
+      "organic_control": [
+        "Neem oil",
+        "Pyrethrin",
+        "Diatomaceous earth",
+        "Garlic spray"
+      ],
+      "chemical_control": [
+        "Cypermethrin",
+        "Malathion",
+        "Imidacloprid"
+      ],
+      "biological_control": [
+        "Parasitic wasps",
+        "Predatory beetles",
+        "Lacewings"
+      ]
+    },
+    "human_hazard": {
+      "is_dangerous_to_humans": false,
+      "hazard_level": "Low",
+      "hazard_color": "#33CC33",
+      "venom": false,
+      "bites": false,
+      "disease_transmission": false,
+      "diseases_transmitted": [],
+      "allergy_risk": false,
+      "symptoms_on_contact": [
+        "None expected"
+      ],
+      "first_aid": "No action needed. Wash hands after contact.",
+      "medical_attention": false,
+      "medical_note": "",
+      "vulnerable_groups": []
+    },
+    "precautions": "Wear gloves when handling plants affected by peach borer. Avoid direct contact."
+  },
+  "english grain aphid": {
+    "common_name": "English Grain Aphid",
+    "scientific_name": "See literature",
+    "risk_level": "Safe",
+    "risk_color": "#33CC33",
+    "rarity": "Common",
+    "active_season": "Year-round",
+    "ecological_role": "Agricultural pest",
+    "fun_fact": "English Grain Aphid is a key pest monitored in the IP102 benchmark dataset.",
+    "crop_impact": {
+      "affected_crops": [
+        "wheat",
+        "barley",
+        "oats"
+      ],
+      "damage_type": [
+        "feeding damage",
+        "yield loss",
+        "crop contamination"
+      ],
+      "economic_loss_level": "High",
+      "loss_description": "English Grain Aphid causes significant damage to wheat, barley, oats. Early detection is critical.",
+      "recommendations": {
+        "low": [
+          "Monitor english grain aphid activity weekly using sticky traps",
+          "Encourage natural predators in the field",
+          "Record sightings and track population trends"
+        ],
+        "medium": [
+          "Apply neem oil spray every 5-7 days for english grain aphid",
+          "Remove and destroy heavily infested plant material",
+          "Use row covers to prevent further spread",
+          "Inspect neighbouring fields for spread"
+        ],
+        "high": [
+          "Apply targeted insecticide for english grain aphid immediately",
+          "Contact your local agricultural extension officer",
+          "Consider crop rotation to break pest cycle",
+          "Document damage for insurance or government support",
+          "Isolate affected area to prevent spread"
+        ]
+      },
+      "organic_control": [
+        "Neem oil",
+        "Pyrethrin",
+        "Diatomaceous earth",
+        "Garlic spray"
+      ],
+      "chemical_control": [
+        "Cypermethrin",
+        "Malathion",
+        "Imidacloprid"
+      ],
+      "biological_control": [
+        "Parasitic wasps",
+        "Predatory beetles",
+        "Lacewings"
+      ]
+    },
+    "human_hazard": {
+      "is_dangerous_to_humans": false,
+      "hazard_level": "Low",
+      "hazard_color": "#33CC33",
+      "venom": false,
+      "bites": false,
+      "disease_transmission": false,
+      "diseases_transmitted": [],
+      "allergy_risk": false,
+      "symptoms_on_contact": [
+        "None expected"
+      ],
+      "first_aid": "No action needed. Wash hands after contact.",
+      "medical_attention": false,
+      "medical_note": "",
+      "vulnerable_groups": []
+    },
+    "precautions": "Wear gloves when handling plants affected by english grain aphid. Avoid direct contact."
+  },
+  "green bug": {
+    "common_name": "Green Bug",
+    "scientific_name": "See literature",
+    "risk_level": "Safe",
+    "risk_color": "#33CC33",
+    "rarity": "Common",
+    "active_season": "Year-round",
+    "ecological_role": "Agricultural pest",
+    "fun_fact": "Green Bug is a key pest monitored in the IP102 benchmark dataset.",
+    "crop_impact": {
+      "affected_crops": [
+        "wheat",
+        "sorghum",
+        "barley"
+      ],
+      "damage_type": [
+        "feeding damage",
+        "yield loss",
+        "crop contamination"
+      ],
+      "economic_loss_level": "Medium",
+      "loss_description": "Green Bug causes significant damage to wheat, sorghum, barley. Early detection is critical.",
+      "recommendations": {
+        "low": [
+          "Monitor green bug activity weekly using sticky traps",
+          "Encourage natural predators in the field",
+          "Record sightings and track population trends"
+        ],
+        "medium": [
+          "Apply neem oil spray every 5-7 days for green bug",
+          "Remove and destroy heavily infested plant material",
+          "Use row covers to prevent further spread",
+          "Inspect neighbouring fields for spread"
+        ],
+        "high": [
+          "Apply targeted insecticide for green bug immediately",
+          "Contact your local agricultural extension officer",
+          "Consider crop rotation to break pest cycle",
+          "Document damage for insurance or government support",
+          "Isolate affected area to prevent spread"
+        ]
+      },
+      "organic_control": [
+        "Neem oil",
+        "Pyrethrin",
+        "Diatomaceous earth",
+        "Garlic spray"
+      ],
+      "chemical_control": [
+        "Cypermethrin",
+        "Malathion",
+        "Imidacloprid"
+      ],
+      "biological_control": [
+        "Parasitic wasps",
+        "Predatory beetles",
+        "Lacewings"
+      ]
+    },
+    "human_hazard": {
+      "is_dangerous_to_humans": false,
+      "hazard_level": "Low",
+      "hazard_color": "#33CC33",
+      "venom": false,
+      "bites": false,
+      "disease_transmission": false,
+      "diseases_transmitted": [],
+      "allergy_risk": false,
+      "symptoms_on_contact": [
+        "None expected"
+      ],
+      "first_aid": "No action needed. Wash hands after contact.",
+      "medical_attention": false,
+      "medical_note": "",
+      "vulnerable_groups": []
+    },
+    "precautions": "Wear gloves when handling plants affected by green bug. Avoid direct contact."
+  },
+  "bird cherry-oataphid": {
+    "common_name": "Bird Cherry-Oataphid",
+    "scientific_name": "See literature",
+    "risk_level": "Safe",
+    "risk_color": "#33CC33",
+    "rarity": "Common",
+    "active_season": "Year-round",
+    "ecological_role": "Agricultural pest",
+    "fun_fact": "Bird Cherry-Oataphid is a key pest monitored in the IP102 benchmark dataset.",
+    "crop_impact": {
+      "affected_crops": [
+        "wheat",
+        "oats",
+        "barley"
+      ],
+      "damage_type": [
+        "feeding damage",
+        "yield loss",
+        "crop contamination"
+      ],
+      "economic_loss_level": "Medium",
+      "loss_description": "Bird Cherry-Oataphid causes significant damage to wheat, oats, barley. Early detection is critical.",
+      "recommendations": {
+        "low": [
+          "Monitor bird cherry-oataphid activity weekly using sticky traps",
+          "Encourage natural predators in the field",
+          "Record sightings and track population trends"
+        ],
+        "medium": [
+          "Apply neem oil spray every 5-7 days for bird cherry-oataphid",
+          "Remove and destroy heavily infested plant material",
+          "Use row covers to prevent further spread",
+          "Inspect neighbouring fields for spread"
+        ],
+        "high": [
+          "Apply targeted insecticide for bird cherry-oataphid immediately",
+          "Contact your local agricultural extension officer",
+          "Consider crop rotation to break pest cycle",
+          "Document damage for insurance or government support",
+          "Isolate affected area to prevent spread"
+        ]
+      },
+      "organic_control": [
+        "Neem oil",
+        "Pyrethrin",
+        "Diatomaceous earth",
+        "Garlic spray"
+      ],
+      "chemical_control": [
+        "Cypermethrin",
+        "Malathion",
+        "Imidacloprid"
+      ],
+      "biological_control": [
+        "Parasitic wasps",
+        "Predatory beetles",
+        "Lacewings"
+      ]
+    },
+    "human_hazard": {
+      "is_dangerous_to_humans": false,
+      "hazard_level": "Low",
+      "hazard_color": "#33CC33",
+      "venom": false,
+      "bites": false,
+      "disease_transmission": false,
+      "diseases_transmitted": [],
+      "allergy_risk": false,
+      "symptoms_on_contact": [
+        "None expected"
+      ],
+      "first_aid": "No action needed. Wash hands after contact.",
+      "medical_attention": false,
+      "medical_note": "",
+      "vulnerable_groups": []
+    },
+    "precautions": "Wear gloves when handling plants affected by bird cherry-oataphid. Avoid direct contact."
+  },
+  "wheat blossom midge": {
+    "common_name": "Wheat Blossom Midge",
+    "scientific_name": "See literature",
+    "risk_level": "Safe",
+    "risk_color": "#33CC33",
+    "rarity": "Common",
+    "active_season": "Year-round",
+    "ecological_role": "Agricultural pest",
+    "fun_fact": "Wheat Blossom Midge is a key pest monitored in the IP102 benchmark dataset.",
+    "crop_impact": {
+      "affected_crops": [
+        "wheat"
+      ],
+      "damage_type": [
+        "feeding damage",
+        "yield loss",
+        "crop contamination"
+      ],
+      "economic_loss_level": "Medium",
+      "loss_description": "Wheat Blossom Midge causes significant damage to wheat. Early detection is critical.",
+      "recommendations": {
+        "low": [
+          "Monitor wheat blossom midge activity weekly using sticky traps",
+          "Encourage natural predators in the field",
+          "Record sightings and track population trends"
+        ],
+        "medium": [
+          "Apply neem oil spray every 5-7 days for wheat blossom midge",
+          "Remove and destroy heavily infested plant material",
+          "Use row covers to prevent further spread",
+          "Inspect neighbouring fields for spread"
+        ],
+        "high": [
+          "Apply targeted insecticide for wheat blossom midge immediately",
+          "Contact your local agricultural extension officer",
+          "Consider crop rotation to break pest cycle",
+          "Document damage for insurance or government support",
+          "Isolate affected area to prevent spread"
+        ]
+      },
+      "organic_control": [
+        "Neem oil",
+        "Pyrethrin",
+        "Diatomaceous earth",
+        "Garlic spray"
+      ],
+      "chemical_control": [
+        "Cypermethrin",
+        "Malathion",
+        "Imidacloprid"
+      ],
+      "biological_control": [
+        "Parasitic wasps",
+        "Predatory beetles",
+        "Lacewings"
+      ]
+    },
+    "human_hazard": {
+      "is_dangerous_to_humans": false,
+      "hazard_level": "Low",
+      "hazard_color": "#33CC33",
+      "venom": false,
+      "bites": false,
+      "disease_transmission": false,
+      "diseases_transmitted": [],
+      "allergy_risk": false,
+      "symptoms_on_contact": [
+        "None expected"
+      ],
+      "first_aid": "No action needed. Wash hands after contact.",
+      "medical_attention": false,
+      "medical_note": "",
+      "vulnerable_groups": []
+    },
+    "precautions": "Wear gloves when handling plants affected by wheat blossom midge. Avoid direct contact."
+  },
+  "penthaleus major": {
+    "common_name": "Penthaleus Major",
+    "scientific_name": "See literature",
+    "risk_level": "Safe",
+    "risk_color": "#33CC33",
+    "rarity": "Common",
+    "active_season": "Year-round",
+    "ecological_role": "Agricultural pest",
+    "fun_fact": "Penthaleus Major is a key pest monitored in the IP102 benchmark dataset.",
+    "crop_impact": {
+      "affected_crops": [
+        "wheat",
+        "clover",
+        "legumes"
+      ],
+      "damage_type": [
+        "feeding damage",
+        "yield loss",
+        "crop contamination"
+      ],
+      "economic_loss_level": "Medium",
+      "loss_description": "Penthaleus Major causes significant damage to wheat, clover, legumes. Early detection is critical.",
+      "recommendations": {
+        "low": [
+          "Monitor penthaleus major activity weekly using sticky traps",
+          "Encourage natural predators in the field",
+          "Record sightings and track population trends"
+        ],
+        "medium": [
+          "Apply neem oil spray every 5-7 days for penthaleus major",
+          "Remove and destroy heavily infested plant material",
+          "Use row covers to prevent further spread",
+          "Inspect neighbouring fields for spread"
+        ],
+        "high": [
+          "Apply targeted insecticide for penthaleus major immediately",
+          "Contact your local agricultural extension officer",
+          "Consider crop rotation to break pest cycle",
+          "Document damage for insurance or government support",
+          "Isolate affected area to prevent spread"
+        ]
+      },
+      "organic_control": [
+        "Neem oil",
+        "Pyrethrin",
+        "Diatomaceous earth",
+        "Garlic spray"
+      ],
+      "chemical_control": [
+        "Cypermethrin",
+        "Malathion",
+        "Imidacloprid"
+      ],
+      "biological_control": [
+        "Parasitic wasps",
+        "Predatory beetles",
+        "Lacewings"
+      ]
+    },
+    "human_hazard": {
+      "is_dangerous_to_humans": false,
+      "hazard_level": "Low",
+      "hazard_color": "#33CC33",
+      "venom": false,
+      "bites": false,
+      "disease_transmission": false,
+      "diseases_transmitted": [],
+      "allergy_risk": false,
+      "symptoms_on_contact": [
+        "None expected"
+      ],
+      "first_aid": "No action needed. Wash hands after contact.",
+      "medical_attention": false,
+      "medical_note": "",
+      "vulnerable_groups": []
+    },
+    "precautions": "Wear gloves when handling plants affected by penthaleus major. Avoid direct contact."
+  },
+  "longlegged spider mite": {
+    "common_name": "Longlegged Spider Mite",
+    "scientific_name": "See literature",
+    "risk_level": "Caution",
+    "risk_color": "#FFA500",
+    "rarity": "Common",
+    "active_season": "Year-round",
+    "ecological_role": "Agricultural pest",
+    "fun_fact": "Longlegged Spider Mite is a key pest monitored in the IP102 benchmark dataset.",
+    "crop_impact": {
+      "affected_crops": [
+        "vegetables",
+        "fruit trees",
+        "cotton"
+      ],
+      "damage_type": [
+        "feeding damage",
+        "yield loss",
+        "crop contamination"
+      ],
+      "economic_loss_level": "Medium",
+      "loss_description": "Longlegged Spider Mite causes significant damage to vegetables, fruit trees, cotton. Early detection is critical.",
+      "recommendations": {
+        "low": [
+          "Monitor longlegged spider mite activity weekly using sticky traps",
+          "Encourage natural predators in the field",
+          "Record sightings and track population trends"
+        ],
+        "medium": [
+          "Apply neem oil spray every 5-7 days for longlegged spider mite",
+          "Remove and destroy heavily infested plant material",
+          "Use row covers to prevent further spread",
+          "Inspect neighbouring fields for spread"
+        ],
+        "high": [
+          "Apply targeted insecticide for longlegged spider mite immediately",
+          "Contact your local agricultural extension officer",
+          "Consider crop rotation to break pest cycle",
+          "Document damage for insurance or government support",
+          "Isolate affected area to prevent spread"
+        ]
+      },
+      "organic_control": [
+        "Neem oil",
+        "Pyrethrin",
+        "Diatomaceous earth",
+        "Garlic spray"
+      ],
+      "chemical_control": [
+        "Cypermethrin",
+        "Malathion",
+        "Imidacloprid"
+      ],
+      "biological_control": [
+        "Parasitic wasps",
+        "Predatory beetles",
+        "Lacewings"
+      ]
+    },
+    "human_hazard": {
+      "is_dangerous_to_humans": true,
+      "hazard_level": "Moderate",
+      "hazard_color": "#FFA500",
+      "venom": false,
+      "bites": true,
+      "disease_transmission": false,
+      "diseases_transmitted": [],
+      "allergy_risk": true,
+      "symptoms_on_contact": [
+        "Skin irritation"
+      ],
+      "first_aid": "Wash affected area with soap and water. Apply antihistamine if needed.",
+      "medical_attention": false,
+      "medical_note": "",
+      "vulnerable_groups": [
+        "Children",
+        "Elderly",
+        "People with allergies"
+      ]
+    },
+    "precautions": "Wear gloves when handling plants affected by longlegged spider mite. Avoid direct contact."
+  },
+  "wheat phloeothrips": {
+    "common_name": "Wheat Phloeothrips",
+    "scientific_name": "See literature",
+    "risk_level": "Safe",
+    "risk_color": "#33CC33",
+    "rarity": "Common",
+    "active_season": "Year-round",
+    "ecological_role": "Agricultural pest",
+    "fun_fact": "Wheat Phloeothrips is a key pest monitored in the IP102 benchmark dataset.",
+    "crop_impact": {
+      "affected_crops": [
+        "wheat"
+      ],
+      "damage_type": [
+        "feeding damage",
+        "yield loss",
+        "crop contamination"
+      ],
+      "economic_loss_level": "Medium",
+      "loss_description": "Wheat Phloeothrips causes significant damage to wheat. Early detection is critical.",
+      "recommendations": {
+        "low": [
+          "Monitor wheat phloeothrips activity weekly using sticky traps",
+          "Encourage natural predators in the field",
+          "Record sightings and track population trends"
+        ],
+        "medium": [
+          "Apply neem oil spray every 5-7 days for wheat phloeothrips",
+          "Remove and destroy heavily infested plant material",
+          "Use row covers to prevent further spread",
+          "Inspect neighbouring fields for spread"
+        ],
+        "high": [
+          "Apply targeted insecticide for wheat phloeothrips immediately",
+          "Contact your local agricultural extension officer",
+          "Consider crop rotation to break pest cycle",
+          "Document damage for insurance or government support",
+          "Isolate affected area to prevent spread"
+        ]
+      },
+      "organic_control": [
+        "Neem oil",
+        "Pyrethrin",
+        "Diatomaceous earth",
+        "Garlic spray"
+      ],
+      "chemical_control": [
+        "Cypermethrin",
+        "Malathion",
+        "Imidacloprid"
+      ],
+      "biological_control": [
+        "Parasitic wasps",
+        "Predatory beetles",
+        "Lacewings"
+      ]
+    },
+    "human_hazard": {
+      "is_dangerous_to_humans": false,
+      "hazard_level": "Low",
+      "hazard_color": "#33CC33",
+      "venom": false,
+      "bites": false,
+      "disease_transmission": false,
+      "diseases_transmitted": [],
+      "allergy_risk": false,
+      "symptoms_on_contact": [
+        "None expected"
+      ],
+      "first_aid": "No action needed. Wash hands after contact.",
+      "medical_attention": false,
+      "medical_note": "",
+      "vulnerable_groups": []
+    },
+    "precautions": "Wear gloves when handling plants affected by wheat phloeothrips. Avoid direct contact."
+  },
+  "wheat sawfly": {
+    "common_name": "Wheat Sawfly",
+    "scientific_name": "See literature",
+    "risk_level": "Safe",
+    "risk_color": "#33CC33",
+    "rarity": "Common",
+    "active_season": "Year-round",
+    "ecological_role": "Agricultural pest",
+    "fun_fact": "Wheat Sawfly is a key pest monitored in the IP102 benchmark dataset.",
+    "crop_impact": {
+      "affected_crops": [
+        "wheat",
+        "barley"
+      ],
+      "damage_type": [
+        "feeding damage",
+        "yield loss",
+        "crop contamination"
+      ],
+      "economic_loss_level": "High",
+      "loss_description": "Wheat Sawfly causes significant damage to wheat, barley. Early detection is critical.",
+      "recommendations": {
+        "low": [
+          "Monitor wheat sawfly activity weekly using sticky traps",
+          "Encourage natural predators in the field",
+          "Record sightings and track population trends"
+        ],
+        "medium": [
+          "Apply neem oil spray every 5-7 days for wheat sawfly",
+          "Remove and destroy heavily infested plant material",
+          "Use row covers to prevent further spread",
+          "Inspect neighbouring fields for spread"
+        ],
+        "high": [
+          "Apply targeted insecticide for wheat sawfly immediately",
+          "Contact your local agricultural extension officer",
+          "Consider crop rotation to break pest cycle",
+          "Document damage for insurance or government support",
+          "Isolate affected area to prevent spread"
+        ]
+      },
+      "organic_control": [
+        "Neem oil",
+        "Pyrethrin",
+        "Diatomaceous earth",
+        "Garlic spray"
+      ],
+      "chemical_control": [
+        "Cypermethrin",
+        "Malathion",
+        "Imidacloprid"
+      ],
+      "biological_control": [
+        "Parasitic wasps",
+        "Predatory beetles",
+        "Lacewings"
+      ]
+    },
+    "human_hazard": {
+      "is_dangerous_to_humans": false,
+      "hazard_level": "Low",
+      "hazard_color": "#33CC33",
+      "venom": false,
+      "bites": false,
+      "disease_transmission": false,
+      "diseases_transmitted": [],
+      "allergy_risk": false,
+      "symptoms_on_contact": [
+        "None expected"
+      ],
+      "first_aid": "No action needed. Wash hands after contact.",
+      "medical_attention": false,
+      "medical_note": "",
+      "vulnerable_groups": []
+    },
+    "precautions": "Wear gloves when handling plants affected by wheat sawfly. Avoid direct contact."
+  },
+  "cerodonta denticornis": {
+    "common_name": "Cerodonta Denticornis",
+    "scientific_name": "See literature",
+    "risk_level": "Safe",
+    "risk_color": "#33CC33",
+    "rarity": "Common",
+    "active_season": "Year-round",
+    "ecological_role": "Agricultural pest",
+    "fun_fact": "Cerodonta Denticornis is a key pest monitored in the IP102 benchmark dataset.",
+    "crop_impact": {
+      "affected_crops": [
+        "wheat",
+        "barley"
+      ],
+      "damage_type": [
+        "feeding damage",
+        "yield loss",
+        "crop contamination"
+      ],
+      "economic_loss_level": "Medium",
+      "loss_description": "Cerodonta Denticornis causes significant damage to wheat, barley. Early detection is critical.",
+      "recommendations": {
+        "low": [
+          "Monitor cerodonta denticornis activity weekly using sticky traps",
+          "Encourage natural predators in the field",
+          "Record sightings and track population trends"
+        ],
+        "medium": [
+          "Apply neem oil spray every 5-7 days for cerodonta denticornis",
+          "Remove and destroy heavily infested plant material",
+          "Use row covers to prevent further spread",
+          "Inspect neighbouring fields for spread"
+        ],
+        "high": [
+          "Apply targeted insecticide for cerodonta denticornis immediately",
+          "Contact your local agricultural extension officer",
+          "Consider crop rotation to break pest cycle",
+          "Document damage for insurance or government support",
+          "Isolate affected area to prevent spread"
+        ]
+      },
+      "organic_control": [
+        "Neem oil",
+        "Pyrethrin",
+        "Diatomaceous earth",
+        "Garlic spray"
+      ],
+      "chemical_control": [
+        "Cypermethrin",
+        "Malathion",
+        "Imidacloprid"
+      ],
+      "biological_control": [
+        "Parasitic wasps",
+        "Predatory beetles",
+        "Lacewings"
+      ]
+    },
+    "human_hazard": {
+      "is_dangerous_to_humans": false,
+      "hazard_level": "Low",
+      "hazard_color": "#33CC33",
+      "venom": false,
+      "bites": false,
+      "disease_transmission": false,
+      "diseases_transmitted": [],
+      "allergy_risk": false,
+      "symptoms_on_contact": [
+        "None expected"
+      ],
+      "first_aid": "No action needed. Wash hands after contact.",
+      "medical_attention": false,
+      "medical_note": "",
+      "vulnerable_groups": []
+    },
+    "precautions": "Wear gloves when handling plants affected by cerodonta denticornis. Avoid direct contact."
+  },
+  "beet fly": {
+    "common_name": "Beet Fly",
+    "scientific_name": "See literature",
+    "risk_level": "Safe",
+    "risk_color": "#33CC33",
+    "rarity": "Common",
+    "active_season": "Year-round",
+    "ecological_role": "Agricultural pest",
+    "fun_fact": "Beet Fly is a key pest monitored in the IP102 benchmark dataset.",
+    "crop_impact": {
+      "affected_crops": [
+        "beet",
+        "spinach"
+      ],
+      "damage_type": [
+        "feeding damage",
+        "yield loss",
+        "crop contamination"
+      ],
+      "economic_loss_level": "Medium",
+      "loss_description": "Beet Fly causes significant damage to beet, spinach. Early detection is critical.",
+      "recommendations": {
+        "low": [
+          "Monitor beet fly activity weekly using sticky traps",
+          "Encourage natural predators in the field",
+          "Record sightings and track population trends"
+        ],
+        "medium": [
+          "Apply neem oil spray every 5-7 days for beet fly",
+          "Remove and destroy heavily infested plant material",
+          "Use row covers to prevent further spread",
+          "Inspect neighbouring fields for spread"
+        ],
+        "high": [
+          "Apply targeted insecticide for beet fly immediately",
+          "Contact your local agricultural extension officer",
+          "Consider crop rotation to break pest cycle",
+          "Document damage for insurance or government support",
+          "Isolate affected area to prevent spread"
+        ]
+      },
+      "organic_control": [
+        "Neem oil",
+        "Pyrethrin",
+        "Diatomaceous earth",
+        "Garlic spray"
+      ],
+      "chemical_control": [
+        "Cypermethrin",
+        "Malathion",
+        "Imidacloprid"
+      ],
+      "biological_control": [
+        "Parasitic wasps",
+        "Predatory beetles",
+        "Lacewings"
+      ]
+    },
+    "human_hazard": {
+      "is_dangerous_to_humans": false,
+      "hazard_level": "Low",
+      "hazard_color": "#33CC33",
+      "venom": false,
+      "bites": false,
+      "disease_transmission": false,
+      "diseases_transmitted": [],
+      "allergy_risk": false,
+      "symptoms_on_contact": [
+        "None expected"
+      ],
+      "first_aid": "No action needed. Wash hands after contact.",
+      "medical_attention": false,
+      "medical_note": "",
+      "vulnerable_groups": []
+    },
+    "precautions": "Wear gloves when handling plants affected by beet fly. Avoid direct contact."
+  },
+  "flea beetle": {
+    "common_name": "Flea Beetle",
+    "scientific_name": "See literature",
+    "risk_level": "Caution",
+    "risk_color": "#FFA500",
+    "rarity": "Common",
+    "active_season": "Year-round",
+    "ecological_role": "Agricultural pest",
+    "fun_fact": "Flea Beetle is a key pest monitored in the IP102 benchmark dataset.",
+    "crop_impact": {
+      "affected_crops": [
+        "vegetables",
+        "canola",
+        "potato"
+      ],
+      "damage_type": [
+        "feeding damage",
+        "yield loss",
+        "crop contamination"
+      ],
+      "economic_loss_level": "Medium",
+      "loss_description": "Flea Beetle causes significant damage to vegetables, canola, potato. Early detection is critical.",
+      "recommendations": {
+        "low": [
+          "Monitor flea beetle activity weekly using sticky traps",
+          "Encourage natural predators in the field",
+          "Record sightings and track population trends"
+        ],
+        "medium": [
+          "Apply neem oil spray every 5-7 days for flea beetle",
+          "Remove and destroy heavily infested plant material",
+          "Use row covers to prevent further spread",
+          "Inspect neighbouring fields for spread"
+        ],
+        "high": [
+          "Apply targeted insecticide for flea beetle immediately",
+          "Contact your local agricultural extension officer",
+          "Consider crop rotation to break pest cycle",
+          "Document damage for insurance or government support",
+          "Isolate affected area to prevent spread"
+        ]
+      },
+      "organic_control": [
+        "Neem oil",
+        "Pyrethrin",
+        "Diatomaceous earth",
+        "Garlic spray"
+      ],
+      "chemical_control": [
+        "Cypermethrin",
+        "Malathion",
+        "Imidacloprid"
+      ],
+      "biological_control": [
+        "Parasitic wasps",
+        "Predatory beetles",
+        "Lacewings"
+      ]
+    },
+    "human_hazard": {
+      "is_dangerous_to_humans": true,
+      "hazard_level": "Moderate",
+      "hazard_color": "#FFA500",
+      "venom": false,
+      "bites": true,
+      "disease_transmission": false,
+      "diseases_transmitted": [],
+      "allergy_risk": true,
+      "symptoms_on_contact": [
+        "Skin irritation"
+      ],
+      "first_aid": "Wash affected area with soap and water. Apply antihistamine if needed.",
+      "medical_attention": false,
+      "medical_note": "",
+      "vulnerable_groups": [
+        "Children",
+        "Elderly",
+        "People with allergies"
+      ]
+    },
+    "precautions": "Wear gloves when handling plants affected by flea beetle. Avoid direct contact."
+  },
+  "cabbage army worm": {
+    "common_name": "Cabbage Army Worm",
+    "scientific_name": "See literature",
+    "risk_level": "Safe",
+    "risk_color": "#33CC33",
+    "rarity": "Common",
+    "active_season": "Year-round",
+    "ecological_role": "Agricultural pest",
+    "fun_fact": "Cabbage Army Worm is a key pest monitored in the IP102 benchmark dataset.",
+    "crop_impact": {
+      "affected_crops": [
+        "cabbage",
+        "vegetables"
+      ],
+      "damage_type": [
+        "feeding damage",
+        "yield loss",
+        "crop contamination"
+      ],
+      "economic_loss_level": "High",
+      "loss_description": "Cabbage Army Worm causes significant damage to cabbage, vegetables. Early detection is critical.",
+      "recommendations": {
+        "low": [
+          "Monitor cabbage army worm activity weekly using sticky traps",
+          "Encourage natural predators in the field",
+          "Record sightings and track population trends"
+        ],
+        "medium": [
+          "Apply neem oil spray every 5-7 days for cabbage army worm",
+          "Remove and destroy heavily infested plant material",
+          "Use row covers to prevent further spread",
+          "Inspect neighbouring fields for spread"
+        ],
+        "high": [
+          "Apply targeted insecticide for cabbage army worm immediately",
+          "Contact your local agricultural extension officer",
+          "Consider crop rotation to break pest cycle",
+          "Document damage for insurance or government support",
+          "Isolate affected area to prevent spread"
+        ]
+      },
+      "organic_control": [
+        "Neem oil",
+        "Pyrethrin",
+        "Diatomaceous earth",
+        "Garlic spray"
+      ],
+      "chemical_control": [
+        "Cypermethrin",
+        "Malathion",
+        "Imidacloprid"
+      ],
+      "biological_control": [
+        "Parasitic wasps",
+        "Predatory beetles",
+        "Lacewings"
+      ]
+    },
+    "human_hazard": {
+      "is_dangerous_to_humans": false,
+      "hazard_level": "Low",
+      "hazard_color": "#33CC33",
+      "venom": false,
+      "bites": false,
+      "disease_transmission": false,
+      "diseases_transmitted": [],
+      "allergy_risk": false,
+      "symptoms_on_contact": [
+        "None expected"
+      ],
+      "first_aid": "No action needed. Wash hands after contact.",
+      "medical_attention": false,
+      "medical_note": "",
+      "vulnerable_groups": []
+    },
+    "precautions": "Wear gloves when handling plants affected by cabbage army worm. Avoid direct contact."
+  },
+  "beet army worm": {
+    "common_name": "Beet Army Worm",
+    "scientific_name": "See literature",
+    "risk_level": "Safe",
+    "risk_color": "#33CC33",
+    "rarity": "Common",
+    "active_season": "Year-round",
+    "ecological_role": "Agricultural pest",
+    "fun_fact": "Beet Army Worm is a key pest monitored in the IP102 benchmark dataset.",
+    "crop_impact": {
+      "affected_crops": [
+        "beet",
+        "vegetables"
+      ],
+      "damage_type": [
+        "feeding damage",
+        "yield loss",
+        "crop contamination"
+      ],
+      "economic_loss_level": "High",
+      "loss_description": "Beet Army Worm causes significant damage to beet, vegetables. Early detection is critical.",
+      "recommendations": {
+        "low": [
+          "Monitor beet army worm activity weekly using sticky traps",
+          "Encourage natural predators in the field",
+          "Record sightings and track population trends"
+        ],
+        "medium": [
+          "Apply neem oil spray every 5-7 days for beet army worm",
+          "Remove and destroy heavily infested plant material",
+          "Use row covers to prevent further spread",
+          "Inspect neighbouring fields for spread"
+        ],
+        "high": [
+          "Apply targeted insecticide for beet army worm immediately",
+          "Contact your local agricultural extension officer",
+          "Consider crop rotation to break pest cycle",
+          "Document damage for insurance or government support",
+          "Isolate affected area to prevent spread"
+        ]
+      },
+      "organic_control": [
+        "Neem oil",
+        "Pyrethrin",
+        "Diatomaceous earth",
+        "Garlic spray"
+      ],
+      "chemical_control": [
+        "Cypermethrin",
+        "Malathion",
+        "Imidacloprid"
+      ],
+      "biological_control": [
+        "Parasitic wasps",
+        "Predatory beetles",
+        "Lacewings"
+      ]
+    },
+    "human_hazard": {
+      "is_dangerous_to_humans": false,
+      "hazard_level": "Low",
+      "hazard_color": "#33CC33",
+      "venom": false,
+      "bites": false,
+      "disease_transmission": false,
+      "diseases_transmitted": [],
+      "allergy_risk": false,
+      "symptoms_on_contact": [
+        "None expected"
+      ],
+      "first_aid": "No action needed. Wash hands after contact.",
+      "medical_attention": false,
+      "medical_note": "",
+      "vulnerable_groups": []
+    },
+    "precautions": "Wear gloves when handling plants affected by beet army worm. Avoid direct contact."
+  },
+  "Beet spot flies": {
+    "common_name": "Beet Spot Flies",
+    "scientific_name": "See literature",
+    "risk_level": "Safe",
+    "risk_color": "#33CC33",
+    "rarity": "Common",
+    "active_season": "Year-round",
+    "ecological_role": "Agricultural pest",
+    "fun_fact": "Beet Spot Flies is a key pest monitored in the IP102 benchmark dataset.",
+    "crop_impact": {
+      "affected_crops": [
+        "beet",
+        "spinach"
+      ],
+      "damage_type": [
+        "feeding damage",
+        "yield loss",
+        "crop contamination"
+      ],
+      "economic_loss_level": "Medium",
+      "loss_description": "Beet Spot Flies causes significant damage to beet, spinach. Early detection is critical.",
+      "recommendations": {
+        "low": [
+          "Monitor Beet spot flies activity weekly using sticky traps",
+          "Encourage natural predators in the field",
+          "Record sightings and track population trends"
+        ],
+        "medium": [
+          "Apply neem oil spray every 5-7 days for Beet spot flies",
+          "Remove and destroy heavily infested plant material",
+          "Use row covers to prevent further spread",
+          "Inspect neighbouring fields for spread"
+        ],
+        "high": [
+          "Apply targeted insecticide for Beet spot flies immediately",
+          "Contact your local agricultural extension officer",
+          "Consider crop rotation to break pest cycle",
+          "Document damage for insurance or government support",
+          "Isolate affected area to prevent spread"
+        ]
+      },
+      "organic_control": [
+        "Neem oil",
+        "Pyrethrin",
+        "Diatomaceous earth",
+        "Garlic spray"
+      ],
+      "chemical_control": [
+        "Cypermethrin",
+        "Malathion",
+        "Imidacloprid"
+      ],
+      "biological_control": [
+        "Parasitic wasps",
+        "Predatory beetles",
+        "Lacewings"
+      ]
+    },
+    "human_hazard": {
+      "is_dangerous_to_humans": false,
+      "hazard_level": "Low",
+      "hazard_color": "#33CC33",
+      "venom": false,
+      "bites": false,
+      "disease_transmission": false,
+      "diseases_transmitted": [],
+      "allergy_risk": false,
+      "symptoms_on_contact": [
+        "None expected"
+      ],
+      "first_aid": "No action needed. Wash hands after contact.",
+      "medical_attention": false,
+      "medical_note": "",
+      "vulnerable_groups": []
+    },
+    "precautions": "Wear gloves when handling plants affected by Beet spot flies. Avoid direct contact."
+  },
+  "meadow moth": {
+    "common_name": "Meadow Moth",
+    "scientific_name": "See literature",
+    "risk_level": "Safe",
+    "risk_color": "#33CC33",
+    "rarity": "Common",
+    "active_season": "Year-round",
+    "ecological_role": "Agricultural pest",
+    "fun_fact": "Meadow Moth is a key pest monitored in the IP102 benchmark dataset.",
+    "crop_impact": {
+      "affected_crops": [
+        "alfalfa",
+        "vegetables",
+        "beet"
+      ],
+      "damage_type": [
+        "feeding damage",
+        "yield loss",
+        "crop contamination"
+      ],
+      "economic_loss_level": "Medium",
+      "loss_description": "Meadow Moth causes significant damage to alfalfa, vegetables, beet. Early detection is critical.",
+      "recommendations": {
+        "low": [
+          "Monitor meadow moth activity weekly using sticky traps",
+          "Encourage natural predators in the field",
+          "Record sightings and track population trends"
+        ],
+        "medium": [
+          "Apply neem oil spray every 5-7 days for meadow moth",
+          "Remove and destroy heavily infested plant material",
+          "Use row covers to prevent further spread",
+          "Inspect neighbouring fields for spread"
+        ],
+        "high": [
+          "Apply targeted insecticide for meadow moth immediately",
+          "Contact your local agricultural extension officer",
+          "Consider crop rotation to break pest cycle",
+          "Document damage for insurance or government support",
+          "Isolate affected area to prevent spread"
+        ]
+      },
+      "organic_control": [
+        "Neem oil",
+        "Pyrethrin",
+        "Diatomaceous earth",
+        "Garlic spray"
+      ],
+      "chemical_control": [
+        "Cypermethrin",
+        "Malathion",
+        "Imidacloprid"
+      ],
+      "biological_control": [
+        "Parasitic wasps",
+        "Predatory beetles",
+        "Lacewings"
+      ]
+    },
+    "human_hazard": {
+      "is_dangerous_to_humans": false,
+      "hazard_level": "Low",
+      "hazard_color": "#33CC33",
+      "venom": false,
+      "bites": false,
+      "disease_transmission": false,
+      "diseases_transmitted": [],
+      "allergy_risk": false,
+      "symptoms_on_contact": [
+        "None expected"
+      ],
+      "first_aid": "No action needed. Wash hands after contact.",
+      "medical_attention": false,
+      "medical_note": "",
+      "vulnerable_groups": []
+    },
+    "precautions": "Wear gloves when handling plants affected by meadow moth. Avoid direct contact."
+  },
+  "beet weevil": {
+    "common_name": "Beet Weevil",
+    "scientific_name": "See literature",
+    "risk_level": "Safe",
+    "risk_color": "#33CC33",
+    "rarity": "Common",
+    "active_season": "Year-round",
+    "ecological_role": "Agricultural pest",
+    "fun_fact": "Beet Weevil is a key pest monitored in the IP102 benchmark dataset.",
+    "crop_impact": {
+      "affected_crops": [
+        "beet",
+        "sugarbeet"
+      ],
+      "damage_type": [
+        "feeding damage",
+        "yield loss",
+        "crop contamination"
+      ],
+      "economic_loss_level": "High",
+      "loss_description": "Beet Weevil causes significant damage to beet, sugarbeet. Early detection is critical.",
+      "recommendations": {
+        "low": [
+          "Monitor beet weevil activity weekly using sticky traps",
+          "Encourage natural predators in the field",
+          "Record sightings and track population trends"
+        ],
+        "medium": [
+          "Apply neem oil spray every 5-7 days for beet weevil",
+          "Remove and destroy heavily infested plant material",
+          "Use row covers to prevent further spread",
+          "Inspect neighbouring fields for spread"
+        ],
+        "high": [
+          "Apply targeted insecticide for beet weevil immediately",
+          "Contact your local agricultural extension officer",
+          "Consider crop rotation to break pest cycle",
+          "Document damage for insurance or government support",
+          "Isolate affected area to prevent spread"
+        ]
+      },
+      "organic_control": [
+        "Neem oil",
+        "Pyrethrin",
+        "Diatomaceous earth",
+        "Garlic spray"
+      ],
+      "chemical_control": [
+        "Cypermethrin",
+        "Malathion",
+        "Imidacloprid"
+      ],
+      "biological_control": [
+        "Parasitic wasps",
+        "Predatory beetles",
+        "Lacewings"
+      ]
+    },
+    "human_hazard": {
+      "is_dangerous_to_humans": false,
+      "hazard_level": "Low",
+      "hazard_color": "#33CC33",
+      "venom": false,
+      "bites": false,
+      "disease_transmission": false,
+      "diseases_transmitted": [],
+      "allergy_risk": false,
+      "symptoms_on_contact": [
+        "None expected"
+      ],
+      "first_aid": "No action needed. Wash hands after contact.",
+      "medical_attention": false,
+      "medical_note": "",
+      "vulnerable_groups": []
+    },
+    "precautions": "Wear gloves when handling plants affected by beet weevil. Avoid direct contact."
+  },
+  "sericaorient alismots chulsky": {
+    "common_name": "Sericaorient Alismots Chulsky",
+    "scientific_name": "See literature",
+    "risk_level": "Safe",
+    "risk_color": "#33CC33",
+    "rarity": "Common",
+    "active_season": "Year-round",
+    "ecological_role": "Agricultural pest",
+    "fun_fact": "Sericaorient Alismots Chulsky is a key pest monitored in the IP102 benchmark dataset.",
+    "crop_impact": {
+      "affected_crops": [
+        "various crops"
+      ],
+      "damage_type": [
+        "feeding damage",
+        "yield loss",
+        "crop contamination"
+      ],
+      "economic_loss_level": "Medium",
+      "loss_description": "Sericaorient Alismots Chulsky causes significant damage to various crops. Early detection is critical.",
+      "recommendations": {
+        "low": [
+          "Monitor sericaorient alismots chulsky activity weekly using sticky traps",
+          "Encourage natural predators in the field",
+          "Record sightings and track population trends"
+        ],
+        "medium": [
+          "Apply neem oil spray every 5-7 days for sericaorient alismots chulsky",
+          "Remove and destroy heavily infested plant material",
+          "Use row covers to prevent further spread",
+          "Inspect neighbouring fields for spread"
+        ],
+        "high": [
+          "Apply targeted insecticide for sericaorient alismots chulsky immediately",
+          "Contact your local agricultural extension officer",
+          "Consider crop rotation to break pest cycle",
+          "Document damage for insurance or government support",
+          "Isolate affected area to prevent spread"
+        ]
+      },
+      "organic_control": [
+        "Neem oil",
+        "Pyrethrin",
+        "Diatomaceous earth",
+        "Garlic spray"
+      ],
+      "chemical_control": [
+        "Cypermethrin",
+        "Malathion",
+        "Imidacloprid"
+      ],
+      "biological_control": [
+        "Parasitic wasps",
+        "Predatory beetles",
+        "Lacewings"
+      ]
+    },
+    "human_hazard": {
+      "is_dangerous_to_humans": false,
+      "hazard_level": "Low",
+      "hazard_color": "#33CC33",
+      "venom": false,
+      "bites": false,
+      "disease_transmission": false,
+      "diseases_transmitted": [],
+      "allergy_risk": false,
+      "symptoms_on_contact": [
+        "None expected"
+      ],
+      "first_aid": "No action needed. Wash hands after contact.",
+      "medical_attention": false,
+      "medical_note": "",
+      "vulnerable_groups": []
+    },
+    "precautions": "Wear gloves when handling plants affected by sericaorient alismots chulsky. Avoid direct contact."
+  },
+  "alfalfa weevil": {
+    "common_name": "Alfalfa Weevil",
+    "scientific_name": "See literature",
+    "risk_level": "Safe",
+    "risk_color": "#33CC33",
+    "rarity": "Common",
+    "active_season": "Year-round",
+    "ecological_role": "Agricultural pest",
+    "fun_fact": "Alfalfa Weevil is a key pest monitored in the IP102 benchmark dataset.",
+    "crop_impact": {
+      "affected_crops": [
+        "alfalfa"
+      ],
+      "damage_type": [
+        "feeding damage",
+        "yield loss",
+        "crop contamination"
+      ],
+      "economic_loss_level": "High",
+      "loss_description": "Alfalfa Weevil causes significant damage to alfalfa. Early detection is critical.",
+      "recommendations": {
+        "low": [
+          "Monitor alfalfa weevil activity weekly using sticky traps",
+          "Encourage natural predators in the field",
+          "Record sightings and track population trends"
+        ],
+        "medium": [
+          "Apply neem oil spray every 5-7 days for alfalfa weevil",
+          "Remove and destroy heavily infested plant material",
+          "Use row covers to prevent further spread",
+          "Inspect neighbouring fields for spread"
+        ],
+        "high": [
+          "Apply targeted insecticide for alfalfa weevil immediately",
+          "Contact your local agricultural extension officer",
+          "Consider crop rotation to break pest cycle",
+          "Document damage for insurance or government support",
+          "Isolate affected area to prevent spread"
+        ]
+      },
+      "organic_control": [
+        "Neem oil",
+        "Pyrethrin",
+        "Diatomaceous earth",
+        "Garlic spray"
+      ],
+      "chemical_control": [
+        "Cypermethrin",
+        "Malathion",
+        "Imidacloprid"
+      ],
+      "biological_control": [
+        "Parasitic wasps",
+        "Predatory beetles",
+        "Lacewings"
+      ]
+    },
+    "human_hazard": {
+      "is_dangerous_to_humans": false,
+      "hazard_level": "Low",
+      "hazard_color": "#33CC33",
+      "venom": false,
+      "bites": false,
+      "disease_transmission": false,
+      "diseases_transmitted": [],
+      "allergy_risk": false,
+      "symptoms_on_contact": [
+        "None expected"
+      ],
+      "first_aid": "No action needed. Wash hands after contact.",
+      "medical_attention": false,
+      "medical_note": "",
+      "vulnerable_groups": []
+    },
+    "precautions": "Wear gloves when handling plants affected by alfalfa weevil. Avoid direct contact."
+  },
+  "flax budworm": {
+    "common_name": "Flax Budworm",
+    "scientific_name": "See literature",
+    "risk_level": "Safe",
+    "risk_color": "#33CC33",
+    "rarity": "Common",
+    "active_season": "Year-round",
+    "ecological_role": "Agricultural pest",
+    "fun_fact": "Flax Budworm is a key pest monitored in the IP102 benchmark dataset.",
+    "crop_impact": {
+      "affected_crops": [
+        "flax",
+        "linseed"
+      ],
+      "damage_type": [
+        "feeding damage",
+        "yield loss",
+        "crop contamination"
+      ],
+      "economic_loss_level": "Medium",
+      "loss_description": "Flax Budworm causes significant damage to flax, linseed. Early detection is critical.",
+      "recommendations": {
+        "low": [
+          "Monitor flax budworm activity weekly using sticky traps",
+          "Encourage natural predators in the field",
+          "Record sightings and track population trends"
+        ],
+        "medium": [
+          "Apply neem oil spray every 5-7 days for flax budworm",
+          "Remove and destroy heavily infested plant material",
+          "Use row covers to prevent further spread",
+          "Inspect neighbouring fields for spread"
+        ],
+        "high": [
+          "Apply targeted insecticide for flax budworm immediately",
+          "Contact your local agricultural extension officer",
+          "Consider crop rotation to break pest cycle",
+          "Document damage for insurance or government support",
+          "Isolate affected area to prevent spread"
+        ]
+      },
+      "organic_control": [
+        "Neem oil",
+        "Pyrethrin",
+        "Diatomaceous earth",
+        "Garlic spray"
+      ],
+      "chemical_control": [
+        "Cypermethrin",
+        "Malathion",
+        "Imidacloprid"
+      ],
+      "biological_control": [
+        "Parasitic wasps",
+        "Predatory beetles",
+        "Lacewings"
+      ]
+    },
+    "human_hazard": {
+      "is_dangerous_to_humans": false,
+      "hazard_level": "Low",
+      "hazard_color": "#33CC33",
+      "venom": false,
+      "bites": false,
+      "disease_transmission": false,
+      "diseases_transmitted": [],
+      "allergy_risk": false,
+      "symptoms_on_contact": [
+        "None expected"
+      ],
+      "first_aid": "No action needed. Wash hands after contact.",
+      "medical_attention": false,
+      "medical_note": "",
+      "vulnerable_groups": []
+    },
+    "precautions": "Wear gloves when handling plants affected by flax budworm. Avoid direct contact."
+  },
+  "alfalfa plant bug": {
+    "common_name": "Alfalfa Plant Bug",
+    "scientific_name": "See literature",
+    "risk_level": "Safe",
+    "risk_color": "#33CC33",
+    "rarity": "Common",
+    "active_season": "Year-round",
+    "ecological_role": "Agricultural pest",
+    "fun_fact": "Alfalfa Plant Bug is a key pest monitored in the IP102 benchmark dataset.",
+    "crop_impact": {
+      "affected_crops": [
+        "alfalfa"
+      ],
+      "damage_type": [
+        "feeding damage",
+        "yield loss",
+        "crop contamination"
+      ],
+      "economic_loss_level": "Medium",
+      "loss_description": "Alfalfa Plant Bug causes significant damage to alfalfa. Early detection is critical.",
+      "recommendations": {
+        "low": [
+          "Monitor alfalfa plant bug activity weekly using sticky traps",
+          "Encourage natural predators in the field",
+          "Record sightings and track population trends"
+        ],
+        "medium": [
+          "Apply neem oil spray every 5-7 days for alfalfa plant bug",
+          "Remove and destroy heavily infested plant material",
+          "Use row covers to prevent further spread",
+          "Inspect neighbouring fields for spread"
+        ],
+        "high": [
+          "Apply targeted insecticide for alfalfa plant bug immediately",
+          "Contact your local agricultural extension officer",
+          "Consider crop rotation to break pest cycle",
+          "Document damage for insurance or government support",
+          "Isolate affected area to prevent spread"
+        ]
+      },
+      "organic_control": [
+        "Neem oil",
+        "Pyrethrin",
+        "Diatomaceous earth",
+        "Garlic spray"
+      ],
+      "chemical_control": [
+        "Cypermethrin",
+        "Malathion",
+        "Imidacloprid"
+      ],
+      "biological_control": [
+        "Parasitic wasps",
+        "Predatory beetles",
+        "Lacewings"
+      ]
+    },
+    "human_hazard": {
+      "is_dangerous_to_humans": false,
+      "hazard_level": "Low",
+      "hazard_color": "#33CC33",
+      "venom": false,
+      "bites": false,
+      "disease_transmission": false,
+      "diseases_transmitted": [],
+      "allergy_risk": false,
+      "symptoms_on_contact": [
+        "None expected"
+      ],
+      "first_aid": "No action needed. Wash hands after contact.",
+      "medical_attention": false,
+      "medical_note": "",
+      "vulnerable_groups": []
+    },
+    "precautions": "Wear gloves when handling plants affected by alfalfa plant bug. Avoid direct contact."
+  },
+  "tarnished plant bug": {
+    "common_name": "Tarnished Plant Bug",
+    "scientific_name": "See literature",
+    "risk_level": "Safe",
+    "risk_color": "#33CC33",
+    "rarity": "Common",
+    "active_season": "Year-round",
+    "ecological_role": "Agricultural pest",
+    "fun_fact": "Tarnished Plant Bug is a key pest monitored in the IP102 benchmark dataset.",
+    "crop_impact": {
+      "affected_crops": [
+        "alfalfa",
+        "strawberry",
+        "cotton"
+      ],
+      "damage_type": [
+        "feeding damage",
+        "yield loss",
+        "crop contamination"
+      ],
+      "economic_loss_level": "Medium",
+      "loss_description": "Tarnished Plant Bug causes significant damage to alfalfa, strawberry, cotton. Early detection is critical.",
+      "recommendations": {
+        "low": [
+          "Monitor tarnished plant bug activity weekly using sticky traps",
+          "Encourage natural predators in the field",
+          "Record sightings and track population trends"
+        ],
+        "medium": [
+          "Apply neem oil spray every 5-7 days for tarnished plant bug",
+          "Remove and destroy heavily infested plant material",
+          "Use row covers to prevent further spread",
+          "Inspect neighbouring fields for spread"
+        ],
+        "high": [
+          "Apply targeted insecticide for tarnished plant bug immediately",
+          "Contact your local agricultural extension officer",
+          "Consider crop rotation to break pest cycle",
+          "Document damage for insurance or government support",
+          "Isolate affected area to prevent spread"
+        ]
+      },
+      "organic_control": [
+        "Neem oil",
+        "Pyrethrin",
+        "Diatomaceous earth",
+        "Garlic spray"
+      ],
+      "chemical_control": [
+        "Cypermethrin",
+        "Malathion",
+        "Imidacloprid"
+      ],
+      "biological_control": [
+        "Parasitic wasps",
+        "Predatory beetles",
+        "Lacewings"
+      ]
+    },
+    "human_hazard": {
+      "is_dangerous_to_humans": false,
+      "hazard_level": "Low",
+      "hazard_color": "#33CC33",
+      "venom": false,
+      "bites": false,
+      "disease_transmission": false,
+      "diseases_transmitted": [],
+      "allergy_risk": false,
+      "symptoms_on_contact": [
+        "None expected"
+      ],
+      "first_aid": "No action needed. Wash hands after contact.",
+      "medical_attention": false,
+      "medical_note": "",
+      "vulnerable_groups": []
+    },
+    "precautions": "Wear gloves when handling plants affected by tarnished plant bug. Avoid direct contact."
+  },
+  "Locustoidea": {
+    "common_name": "Locustoidea",
+    "scientific_name": "See literature",
+    "risk_level": "Safe",
+    "risk_color": "#33CC33",
+    "rarity": "Common",
+    "active_season": "Year-round",
+    "ecological_role": "Agricultural pest",
+    "fun_fact": "Locustoidea is a key pest monitored in the IP102 benchmark dataset.",
+    "crop_impact": {
+      "affected_crops": [
+        "all crops - devastating"
+      ],
+      "damage_type": [
+        "feeding damage",
+        "yield loss",
+        "crop contamination"
+      ],
+      "economic_loss_level": "High",
+      "loss_description": "Locustoidea causes significant damage to all crops - devastating. Early detection is critical.",
+      "recommendations": {
+        "low": [
+          "Monitor Locustoidea activity weekly using sticky traps",
+          "Encourage natural predators in the field",
+          "Record sightings and track population trends"
+        ],
+        "medium": [
+          "Apply neem oil spray every 5-7 days for Locustoidea",
+          "Remove and destroy heavily infested plant material",
+          "Use row covers to prevent further spread",
+          "Inspect neighbouring fields for spread"
+        ],
+        "high": [
+          "Apply targeted insecticide for Locustoidea immediately",
+          "Contact your local agricultural extension officer",
+          "Consider crop rotation to break pest cycle",
+          "Document damage for insurance or government support",
+          "Isolate affected area to prevent spread"
+        ]
+      },
+      "organic_control": [
+        "Neem oil",
+        "Pyrethrin",
+        "Diatomaceous earth",
+        "Garlic spray"
+      ],
+      "chemical_control": [
+        "Cypermethrin",
+        "Malathion",
+        "Imidacloprid"
+      ],
+      "biological_control": [
+        "Parasitic wasps",
+        "Predatory beetles",
+        "Lacewings"
+      ]
+    },
+    "human_hazard": {
+      "is_dangerous_to_humans": false,
+      "hazard_level": "Low",
+      "hazard_color": "#33CC33",
+      "venom": false,
+      "bites": false,
+      "disease_transmission": false,
+      "diseases_transmitted": [],
+      "allergy_risk": false,
+      "symptoms_on_contact": [
+        "None expected"
+      ],
+      "first_aid": "No action needed. Wash hands after contact.",
+      "medical_attention": false,
+      "medical_note": "",
+      "vulnerable_groups": []
+    },
+    "precautions": "Wear gloves when handling plants affected by Locustoidea. Avoid direct contact."
+  },
+  "lytta polita": {
+    "common_name": "Lytta Polita",
+    "scientific_name": "See literature",
+    "risk_level": "High Risk",
+    "risk_color": "#FF3333",
+    "rarity": "Common",
+    "active_season": "Year-round",
+    "ecological_role": "Agricultural pest",
+    "fun_fact": "Lytta Polita is a key pest monitored in the IP102 benchmark dataset.",
+    "crop_impact": {
+      "affected_crops": [
+        "alfalfa",
+        "legumes"
+      ],
+      "damage_type": [
+        "feeding damage",
+        "yield loss",
+        "crop contamination"
+      ],
+      "economic_loss_level": "Medium",
+      "loss_description": "Lytta Polita causes significant damage to alfalfa, legumes. Early detection is critical.",
+      "recommendations": {
+        "low": [
+          "Monitor lytta polita activity weekly using sticky traps",
+          "Encourage natural predators in the field",
+          "Record sightings and track population trends"
+        ],
+        "medium": [
+          "Apply neem oil spray every 5-7 days for lytta polita",
+          "Remove and destroy heavily infested plant material",
+          "Use row covers to prevent further spread",
+          "Inspect neighbouring fields for spread"
+        ],
+        "high": [
+          "Apply targeted insecticide for lytta polita immediately",
+          "Contact your local agricultural extension officer",
+          "Consider crop rotation to break pest cycle",
+          "Document damage for insurance or government support",
+          "Isolate affected area to prevent spread"
+        ]
+      },
+      "organic_control": [
+        "Neem oil",
+        "Pyrethrin",
+        "Diatomaceous earth",
+        "Garlic spray"
+      ],
+      "chemical_control": [
+        "Cypermethrin",
+        "Malathion",
+        "Imidacloprid"
+      ],
+      "biological_control": [
+        "Parasitic wasps",
+        "Predatory beetles",
+        "Lacewings"
+      ]
+    },
+    "human_hazard": {
+      "is_dangerous_to_humans": true,
+      "hazard_level": "Critical",
+      "hazard_color": "#FF0000",
+      "venom": true,
+      "bites": false,
+      "disease_transmission": false,
+      "diseases_transmitted": [],
+      "allergy_risk": true,
+      "symptoms_on_contact": [
+        "Skin irritation",
+        "Redness",
+        "Blistering"
+      ],
+      "first_aid": "Seek emergency medical attention immediately. Do not touch affected area.",
+      "medical_attention": true,
+      "medical_note": "Blister beetles contain cantharidin \u2014 extremely toxic. Seek emergency care immediately.",
+      "vulnerable_groups": [
+        "Children",
+        "Elderly",
+        "People with allergies"
+      ]
+    },
+    "precautions": "Wear gloves when handling plants affected by lytta polita. Avoid direct contact."
+  },
+  "legume blister beetle": {
+    "common_name": "Legume Blister Beetle",
+    "scientific_name": "See literature",
+    "risk_level": "High Risk",
+    "risk_color": "#FF3333",
+    "rarity": "Common",
+    "active_season": "Year-round",
+    "ecological_role": "Agricultural pest",
+    "fun_fact": "Legume Blister Beetle is a key pest monitored in the IP102 benchmark dataset.",
+    "crop_impact": {
+      "affected_crops": [
+        "legumes",
+        "beans",
+        "soybeans"
+      ],
+      "damage_type": [
+        "feeding damage",
+        "yield loss",
+        "crop contamination"
+      ],
+      "economic_loss_level": "Medium",
+      "loss_description": "Legume Blister Beetle causes significant damage to legumes, beans, soybeans. Early detection is critical.",
+      "recommendations": {
+        "low": [
+          "Monitor legume blister beetle activity weekly using sticky traps",
+          "Encourage natural predators in the field",
+          "Record sightings and track population trends"
+        ],
+        "medium": [
+          "Apply neem oil spray every 5-7 days for legume blister beetle",
+          "Remove and destroy heavily infested plant material",
+          "Use row covers to prevent further spread",
+          "Inspect neighbouring fields for spread"
+        ],
+        "high": [
+          "Apply targeted insecticide for legume blister beetle immediately",
+          "Contact your local agricultural extension officer",
+          "Consider crop rotation to break pest cycle",
+          "Document damage for insurance or government support",
+          "Isolate affected area to prevent spread"
+        ]
+      },
+      "organic_control": [
+        "Neem oil",
+        "Pyrethrin",
+        "Diatomaceous earth",
+        "Garlic spray"
+      ],
+      "chemical_control": [
+        "Cypermethrin",
+        "Malathion",
+        "Imidacloprid"
+      ],
+      "biological_control": [
+        "Parasitic wasps",
+        "Predatory beetles",
+        "Lacewings"
+      ]
+    },
+    "human_hazard": {
+      "is_dangerous_to_humans": true,
+      "hazard_level": "Critical",
+      "hazard_color": "#FF0000",
+      "venom": true,
+      "bites": false,
+      "disease_transmission": false,
+      "diseases_transmitted": [],
+      "allergy_risk": true,
+      "symptoms_on_contact": [
+        "Skin irritation",
+        "Redness",
+        "Blistering"
+      ],
+      "first_aid": "Seek emergency medical attention immediately. Do not touch affected area.",
+      "medical_attention": true,
+      "medical_note": "Blister beetles contain cantharidin \u2014 extremely toxic. Seek emergency care immediately.",
+      "vulnerable_groups": [
+        "Children",
+        "Elderly",
+        "People with allergies"
+      ]
+    },
+    "precautions": "Wear gloves when handling plants affected by legume blister beetle. Avoid direct contact."
+  },
+  "blister beetle": {
+    "common_name": "Blister Beetle",
+    "scientific_name": "See literature",
+    "risk_level": "High Risk",
+    "risk_color": "#FF3333",
+    "rarity": "Common",
+    "active_season": "Year-round",
+    "ecological_role": "Agricultural pest",
+    "fun_fact": "Blister Beetle is a key pest monitored in the IP102 benchmark dataset.",
+    "crop_impact": {
+      "affected_crops": [
+        "alfalfa",
+        "potatoes",
+        "tomatoes"
+      ],
+      "damage_type": [
+        "feeding damage",
+        "yield loss",
+        "crop contamination"
+      ],
+      "economic_loss_level": "Medium",
+      "loss_description": "Blister Beetle causes significant damage to alfalfa, potatoes, tomatoes. Early detection is critical.",
+      "recommendations": {
+        "low": [
+          "Monitor blister beetle activity weekly using sticky traps",
+          "Encourage natural predators in the field",
+          "Record sightings and track population trends"
+        ],
+        "medium": [
+          "Apply neem oil spray every 5-7 days for blister beetle",
+          "Remove and destroy heavily infested plant material",
+          "Use row covers to prevent further spread",
+          "Inspect neighbouring fields for spread"
+        ],
+        "high": [
+          "Apply targeted insecticide for blister beetle immediately",
+          "Contact your local agricultural extension officer",
+          "Consider crop rotation to break pest cycle",
+          "Document damage for insurance or government support",
+          "Isolate affected area to prevent spread"
+        ]
+      },
+      "organic_control": [
+        "Neem oil",
+        "Pyrethrin",
+        "Diatomaceous earth",
+        "Garlic spray"
+      ],
+      "chemical_control": [
+        "Cypermethrin",
+        "Malathion",
+        "Imidacloprid"
+      ],
+      "biological_control": [
+        "Parasitic wasps",
+        "Predatory beetles",
+        "Lacewings"
+      ]
+    },
+    "human_hazard": {
+      "is_dangerous_to_humans": true,
+      "hazard_level": "Critical",
+      "hazard_color": "#FF0000",
+      "venom": true,
+      "bites": false,
+      "disease_transmission": false,
+      "diseases_transmitted": [],
+      "allergy_risk": true,
+      "symptoms_on_contact": [
+        "Skin irritation",
+        "Redness",
+        "Blistering"
+      ],
+      "first_aid": "Seek emergency medical attention immediately. Do not touch affected area.",
+      "medical_attention": true,
+      "medical_note": "Blister beetles contain cantharidin \u2014 extremely toxic. Seek emergency care immediately.",
+      "vulnerable_groups": [
+        "Children",
+        "Elderly",
+        "People with allergies"
+      ]
+    },
+    "precautions": "Wear gloves when handling plants affected by blister beetle. Avoid direct contact."
+  },
+  "therioaphis maculata Buckton": {
+    "common_name": "Therioaphis Maculata Buckton",
+    "scientific_name": "See literature",
+    "risk_level": "Safe",
+    "risk_color": "#33CC33",
+    "rarity": "Common",
+    "active_season": "Year-round",
+    "ecological_role": "Agricultural pest",
+    "fun_fact": "Therioaphis Maculata Buckton is a key pest monitored in the IP102 benchmark dataset.",
+    "crop_impact": {
+      "affected_crops": [
+        "alfalfa",
+        "clover"
+      ],
+      "damage_type": [
+        "feeding damage",
+        "yield loss",
+        "crop contamination"
+      ],
+      "economic_loss_level": "Medium",
+      "loss_description": "Therioaphis Maculata Buckton causes significant damage to alfalfa, clover. Early detection is critical.",
+      "recommendations": {
+        "low": [
+          "Monitor therioaphis maculata Buckton activity weekly using sticky traps",
+          "Encourage natural predators in the field",
+          "Record sightings and track population trends"
+        ],
+        "medium": [
+          "Apply neem oil spray every 5-7 days for therioaphis maculata Buckton",
+          "Remove and destroy heavily infested plant material",
+          "Use row covers to prevent further spread",
+          "Inspect neighbouring fields for spread"
+        ],
+        "high": [
+          "Apply targeted insecticide for therioaphis maculata Buckton immediately",
+          "Contact your local agricultural extension officer",
+          "Consider crop rotation to break pest cycle",
+          "Document damage for insurance or government support",
+          "Isolate affected area to prevent spread"
+        ]
+      },
+      "organic_control": [
+        "Neem oil",
+        "Pyrethrin",
+        "Diatomaceous earth",
+        "Garlic spray"
+      ],
+      "chemical_control": [
+        "Cypermethrin",
+        "Malathion",
+        "Imidacloprid"
+      ],
+      "biological_control": [
+        "Parasitic wasps",
+        "Predatory beetles",
+        "Lacewings"
+      ]
+    },
+    "human_hazard": {
+      "is_dangerous_to_humans": false,
+      "hazard_level": "Low",
+      "hazard_color": "#33CC33",
+      "venom": false,
+      "bites": false,
+      "disease_transmission": false,
+      "diseases_transmitted": [],
+      "allergy_risk": false,
+      "symptoms_on_contact": [
+        "None expected"
+      ],
+      "first_aid": "No action needed. Wash hands after contact.",
+      "medical_attention": false,
+      "medical_note": "",
+      "vulnerable_groups": []
+    },
+    "precautions": "Wear gloves when handling plants affected by therioaphis maculata Buckton. Avoid direct contact."
+  },
+  "odontothrips loti": {
+    "common_name": "Odontothrips Loti",
+    "scientific_name": "See literature",
+    "risk_level": "Safe",
+    "risk_color": "#33CC33",
+    "rarity": "Common",
+    "active_season": "Year-round",
+    "ecological_role": "Agricultural pest",
+    "fun_fact": "Odontothrips Loti is a key pest monitored in the IP102 benchmark dataset.",
+    "crop_impact": {
+      "affected_crops": [
+        "alfalfa",
+        "legumes"
+      ],
+      "damage_type": [
+        "feeding damage",
+        "yield loss",
+        "crop contamination"
+      ],
+      "economic_loss_level": "Medium",
+      "loss_description": "Odontothrips Loti causes significant damage to alfalfa, legumes. Early detection is critical.",
+      "recommendations": {
+        "low": [
+          "Monitor odontothrips loti activity weekly using sticky traps",
+          "Encourage natural predators in the field",
+          "Record sightings and track population trends"
+        ],
+        "medium": [
+          "Apply neem oil spray every 5-7 days for odontothrips loti",
+          "Remove and destroy heavily infested plant material",
+          "Use row covers to prevent further spread",
+          "Inspect neighbouring fields for spread"
+        ],
+        "high": [
+          "Apply targeted insecticide for odontothrips loti immediately",
+          "Contact your local agricultural extension officer",
+          "Consider crop rotation to break pest cycle",
+          "Document damage for insurance or government support",
+          "Isolate affected area to prevent spread"
+        ]
+      },
+      "organic_control": [
+        "Neem oil",
+        "Pyrethrin",
+        "Diatomaceous earth",
+        "Garlic spray"
+      ],
+      "chemical_control": [
+        "Cypermethrin",
+        "Malathion",
+        "Imidacloprid"
+      ],
+      "biological_control": [
+        "Parasitic wasps",
+        "Predatory beetles",
+        "Lacewings"
+      ]
+    },
+    "human_hazard": {
+      "is_dangerous_to_humans": false,
+      "hazard_level": "Low",
+      "hazard_color": "#33CC33",
+      "venom": false,
+      "bites": false,
+      "disease_transmission": false,
+      "diseases_transmitted": [],
+      "allergy_risk": false,
+      "symptoms_on_contact": [
+        "None expected"
+      ],
+      "first_aid": "No action needed. Wash hands after contact.",
+      "medical_attention": false,
+      "medical_note": "",
+      "vulnerable_groups": []
+    },
+    "precautions": "Wear gloves when handling plants affected by odontothrips loti. Avoid direct contact."
+  },
+  "Thrips": {
+    "common_name": "Thrips",
+    "scientific_name": "See literature",
+    "risk_level": "Caution",
+    "risk_color": "#FFA500",
+    "rarity": "Common",
+    "active_season": "Year-round",
+    "ecological_role": "Agricultural pest",
+    "fun_fact": "Thrips is a key pest monitored in the IP102 benchmark dataset.",
+    "crop_impact": {
+      "affected_crops": [
+        "onion",
+        "cotton",
+        "vegetables"
+      ],
+      "damage_type": [
+        "feeding damage",
+        "yield loss",
+        "crop contamination"
+      ],
+      "economic_loss_level": "Medium",
+      "loss_description": "Thrips causes significant damage to onion, cotton, vegetables. Early detection is critical.",
+      "recommendations": {
+        "low": [
+          "Monitor Thrips activity weekly using sticky traps",
+          "Encourage natural predators in the field",
+          "Record sightings and track population trends"
+        ],
+        "medium": [
+          "Apply neem oil spray every 5-7 days for Thrips",
+          "Remove and destroy heavily infested plant material",
+          "Use row covers to prevent further spread",
+          "Inspect neighbouring fields for spread"
+        ],
+        "high": [
+          "Apply targeted insecticide for Thrips immediately",
+          "Contact your local agricultural extension officer",
+          "Consider crop rotation to break pest cycle",
+          "Document damage for insurance or government support",
+          "Isolate affected area to prevent spread"
+        ]
+      },
+      "organic_control": [
+        "Neem oil",
+        "Pyrethrin",
+        "Diatomaceous earth",
+        "Garlic spray"
+      ],
+      "chemical_control": [
+        "Cypermethrin",
+        "Malathion",
+        "Imidacloprid"
+      ],
+      "biological_control": [
+        "Parasitic wasps",
+        "Predatory beetles",
+        "Lacewings"
+      ]
+    },
+    "human_hazard": {
+      "is_dangerous_to_humans": true,
+      "hazard_level": "Moderate",
+      "hazard_color": "#FFA500",
+      "venom": false,
+      "bites": true,
+      "disease_transmission": false,
+      "diseases_transmitted": [],
+      "allergy_risk": true,
+      "symptoms_on_contact": [
+        "Skin irritation"
+      ],
+      "first_aid": "Wash affected area with soap and water. Apply antihistamine if needed.",
+      "medical_attention": false,
+      "medical_note": "",
+      "vulnerable_groups": [
+        "Children",
+        "Elderly",
+        "People with allergies"
+      ]
+    },
+    "precautions": "Wear gloves when handling plants affected by Thrips. Avoid direct contact."
+  },
+  "alfalfa seed chalcid": {
+    "common_name": "Alfalfa Seed Chalcid",
+    "scientific_name": "See literature",
+    "risk_level": "Safe",
+    "risk_color": "#33CC33",
+    "rarity": "Common",
+    "active_season": "Year-round",
+    "ecological_role": "Agricultural pest",
+    "fun_fact": "Alfalfa Seed Chalcid is a key pest monitored in the IP102 benchmark dataset.",
+    "crop_impact": {
+      "affected_crops": [
+        "alfalfa"
+      ],
+      "damage_type": [
+        "feeding damage",
+        "yield loss",
+        "crop contamination"
+      ],
+      "economic_loss_level": "Medium",
+      "loss_description": "Alfalfa Seed Chalcid causes significant damage to alfalfa. Early detection is critical.",
+      "recommendations": {
+        "low": [
+          "Monitor alfalfa seed chalcid activity weekly using sticky traps",
+          "Encourage natural predators in the field",
+          "Record sightings and track population trends"
+        ],
+        "medium": [
+          "Apply neem oil spray every 5-7 days for alfalfa seed chalcid",
+          "Remove and destroy heavily infested plant material",
+          "Use row covers to prevent further spread",
+          "Inspect neighbouring fields for spread"
+        ],
+        "high": [
+          "Apply targeted insecticide for alfalfa seed chalcid immediately",
+          "Contact your local agricultural extension officer",
+          "Consider crop rotation to break pest cycle",
+          "Document damage for insurance or government support",
+          "Isolate affected area to prevent spread"
+        ]
+      },
+      "organic_control": [
+        "Neem oil",
+        "Pyrethrin",
+        "Diatomaceous earth",
+        "Garlic spray"
+      ],
+      "chemical_control": [
+        "Cypermethrin",
+        "Malathion",
+        "Imidacloprid"
+      ],
+      "biological_control": [
+        "Parasitic wasps",
+        "Predatory beetles",
+        "Lacewings"
+      ]
+    },
+    "human_hazard": {
+      "is_dangerous_to_humans": false,
+      "hazard_level": "Low",
+      "hazard_color": "#33CC33",
+      "venom": false,
+      "bites": false,
+      "disease_transmission": false,
+      "diseases_transmitted": [],
+      "allergy_risk": false,
+      "symptoms_on_contact": [
+        "None expected"
+      ],
+      "first_aid": "No action needed. Wash hands after contact.",
+      "medical_attention": false,
+      "medical_note": "",
+      "vulnerable_groups": []
+    },
+    "precautions": "Wear gloves when handling plants affected by alfalfa seed chalcid. Avoid direct contact."
+  },
+  "Pieris canidia": {
+    "common_name": "Pieris Canidia",
+    "scientific_name": "See literature",
+    "risk_level": "Safe",
+    "risk_color": "#33CC33",
+    "rarity": "Common",
+    "active_season": "Year-round",
+    "ecological_role": "Agricultural pest",
+    "fun_fact": "Pieris Canidia is a key pest monitored in the IP102 benchmark dataset.",
+    "crop_impact": {
+      "affected_crops": [
+        "cabbage",
+        "broccoli",
+        "cauliflower"
+      ],
+      "damage_type": [
+        "feeding damage",
+        "yield loss",
+        "crop contamination"
+      ],
+      "economic_loss_level": "Medium",
+      "loss_description": "Pieris Canidia causes significant damage to cabbage, broccoli, cauliflower. Early detection is critical.",
+      "recommendations": {
+        "low": [
+          "Monitor Pieris canidia activity weekly using sticky traps",
+          "Encourage natural predators in the field",
+          "Record sightings and track population trends"
+        ],
+        "medium": [
+          "Apply neem oil spray every 5-7 days for Pieris canidia",
+          "Remove and destroy heavily infested plant material",
+          "Use row covers to prevent further spread",
+          "Inspect neighbouring fields for spread"
+        ],
+        "high": [
+          "Apply targeted insecticide for Pieris canidia immediately",
+          "Contact your local agricultural extension officer",
+          "Consider crop rotation to break pest cycle",
+          "Document damage for insurance or government support",
+          "Isolate affected area to prevent spread"
+        ]
+      },
+      "organic_control": [
+        "Neem oil",
+        "Pyrethrin",
+        "Diatomaceous earth",
+        "Garlic spray"
+      ],
+      "chemical_control": [
+        "Cypermethrin",
+        "Malathion",
+        "Imidacloprid"
+      ],
+      "biological_control": [
+        "Parasitic wasps",
+        "Predatory beetles",
+        "Lacewings"
+      ]
+    },
+    "human_hazard": {
+      "is_dangerous_to_humans": false,
+      "hazard_level": "Low",
+      "hazard_color": "#33CC33",
+      "venom": false,
+      "bites": false,
+      "disease_transmission": false,
+      "diseases_transmitted": [],
+      "allergy_risk": false,
+      "symptoms_on_contact": [
+        "None expected"
+      ],
+      "first_aid": "No action needed. Wash hands after contact.",
+      "medical_attention": false,
+      "medical_note": "",
+      "vulnerable_groups": []
+    },
+    "precautions": "Wear gloves when handling plants affected by Pieris canidia. Avoid direct contact."
+  },
+  "Apolygus lucorum": {
+    "common_name": "Apolygus Lucorum",
+    "scientific_name": "See literature",
+    "risk_level": "Safe",
+    "risk_color": "#33CC33",
+    "rarity": "Common",
+    "active_season": "Year-round",
+    "ecological_role": "Agricultural pest",
+    "fun_fact": "Apolygus Lucorum is a key pest monitored in the IP102 benchmark dataset.",
+    "crop_impact": {
+      "affected_crops": [
+        "cotton",
+        "vegetables"
+      ],
+      "damage_type": [
+        "feeding damage",
+        "yield loss",
+        "crop contamination"
+      ],
+      "economic_loss_level": "Medium",
+      "loss_description": "Apolygus Lucorum causes significant damage to cotton, vegetables. Early detection is critical.",
+      "recommendations": {
+        "low": [
+          "Monitor Apolygus lucorum activity weekly using sticky traps",
+          "Encourage natural predators in the field",
+          "Record sightings and track population trends"
+        ],
+        "medium": [
+          "Apply neem oil spray every 5-7 days for Apolygus lucorum",
+          "Remove and destroy heavily infested plant material",
+          "Use row covers to prevent further spread",
+          "Inspect neighbouring fields for spread"
+        ],
+        "high": [
+          "Apply targeted insecticide for Apolygus lucorum immediately",
+          "Contact your local agricultural extension officer",
+          "Consider crop rotation to break pest cycle",
+          "Document damage for insurance or government support",
+          "Isolate affected area to prevent spread"
+        ]
+      },
+      "organic_control": [
+        "Neem oil",
+        "Pyrethrin",
+        "Diatomaceous earth",
+        "Garlic spray"
+      ],
+      "chemical_control": [
+        "Cypermethrin",
+        "Malathion",
+        "Imidacloprid"
+      ],
+      "biological_control": [
+        "Parasitic wasps",
+        "Predatory beetles",
+        "Lacewings"
+      ]
+    },
+    "human_hazard": {
+      "is_dangerous_to_humans": false,
+      "hazard_level": "Low",
+      "hazard_color": "#33CC33",
+      "venom": false,
+      "bites": false,
+      "disease_transmission": false,
+      "diseases_transmitted": [],
+      "allergy_risk": false,
+      "symptoms_on_contact": [
+        "None expected"
+      ],
+      "first_aid": "No action needed. Wash hands after contact.",
+      "medical_attention": false,
+      "medical_note": "",
+      "vulnerable_groups": []
+    },
+    "precautions": "Wear gloves when handling plants affected by Apolygus lucorum. Avoid direct contact."
+  },
+  "Sternochetus frigidus": {
+    "common_name": "Sternochetus Frigidus",
+    "scientific_name": "See literature",
+    "risk_level": "Safe",
+    "risk_color": "#33CC33",
+    "rarity": "Common",
+    "active_season": "Year-round",
+    "ecological_role": "Agricultural pest",
+    "fun_fact": "Sternochetus Frigidus is a key pest monitored in the IP102 benchmark dataset.",
+    "crop_impact": {
+      "affected_crops": [
+        "mango"
+      ],
+      "damage_type": [
+        "feeding damage",
+        "yield loss",
+        "crop contamination"
+      ],
+      "economic_loss_level": "Medium",
+      "loss_description": "Sternochetus Frigidus causes significant damage to mango. Early detection is critical.",
+      "recommendations": {
+        "low": [
+          "Monitor Sternochetus frigidus activity weekly using sticky traps",
+          "Encourage natural predators in the field",
+          "Record sightings and track population trends"
+        ],
+        "medium": [
+          "Apply neem oil spray every 5-7 days for Sternochetus frigidus",
+          "Remove and destroy heavily infested plant material",
+          "Use row covers to prevent further spread",
+          "Inspect neighbouring fields for spread"
+        ],
+        "high": [
+          "Apply targeted insecticide for Sternochetus frigidus immediately",
+          "Contact your local agricultural extension officer",
+          "Consider crop rotation to break pest cycle",
+          "Document damage for insurance or government support",
+          "Isolate affected area to prevent spread"
+        ]
+      },
+      "organic_control": [
+        "Neem oil",
+        "Pyrethrin",
+        "Diatomaceous earth",
+        "Garlic spray"
+      ],
+      "chemical_control": [
+        "Cypermethrin",
+        "Malathion",
+        "Imidacloprid"
+      ],
+      "biological_control": [
+        "Parasitic wasps",
+        "Predatory beetles",
+        "Lacewings"
+      ]
+    },
+    "human_hazard": {
+      "is_dangerous_to_humans": false,
+      "hazard_level": "Low",
+      "hazard_color": "#33CC33",
+      "venom": false,
+      "bites": false,
+      "disease_transmission": false,
+      "diseases_transmitted": [],
+      "allergy_risk": false,
+      "symptoms_on_contact": [
+        "None expected"
+      ],
+      "first_aid": "No action needed. Wash hands after contact.",
+      "medical_attention": false,
+      "medical_note": "",
+      "vulnerable_groups": []
+    },
+    "precautions": "Wear gloves when handling plants affected by Sternochetus frigidus. Avoid direct contact."
+  },
+  "Cicadellidae": {
+    "common_name": "Cicadellidae",
+    "scientific_name": "See literature",
+    "risk_level": "Safe",
+    "risk_color": "#33CC33",
+    "rarity": "Common",
+    "active_season": "Year-round",
+    "ecological_role": "Agricultural pest",
+    "fun_fact": "Cicadellidae is a key pest monitored in the IP102 benchmark dataset.",
+    "crop_impact": {
+      "affected_crops": [
+        "rice",
+        "maize",
+        "legumes"
+      ],
+      "damage_type": [
+        "feeding damage",
+        "yield loss",
+        "crop contamination"
+      ],
+      "economic_loss_level": "Medium",
+      "loss_description": "Cicadellidae causes significant damage to rice, maize, legumes. Early detection is critical.",
+      "recommendations": {
+        "low": [
+          "Monitor Cicadellidae activity weekly using sticky traps",
+          "Encourage natural predators in the field",
+          "Record sightings and track population trends"
+        ],
+        "medium": [
+          "Apply neem oil spray every 5-7 days for Cicadellidae",
+          "Remove and destroy heavily infested plant material",
+          "Use row covers to prevent further spread",
+          "Inspect neighbouring fields for spread"
+        ],
+        "high": [
+          "Apply targeted insecticide for Cicadellidae immediately",
+          "Contact your local agricultural extension officer",
+          "Consider crop rotation to break pest cycle",
+          "Document damage for insurance or government support",
+          "Isolate affected area to prevent spread"
+        ]
+      },
+      "organic_control": [
+        "Neem oil",
+        "Pyrethrin",
+        "Diatomaceous earth",
+        "Garlic spray"
+      ],
+      "chemical_control": [
+        "Cypermethrin",
+        "Malathion",
+        "Imidacloprid"
+      ],
+      "biological_control": [
+        "Parasitic wasps",
+        "Predatory beetles",
+        "Lacewings"
+      ]
+    },
+    "human_hazard": {
+      "is_dangerous_to_humans": false,
+      "hazard_level": "Low",
+      "hazard_color": "#33CC33",
+      "venom": false,
+      "bites": false,
+      "disease_transmission": false,
+      "diseases_transmitted": [],
+      "allergy_risk": false,
+      "symptoms_on_contact": [
+        "None expected"
+      ],
+      "first_aid": "No action needed. Wash hands after contact.",
+      "medical_attention": false,
+      "medical_note": "",
+      "vulnerable_groups": []
+    },
+    "precautions": "Wear gloves when handling plants affected by Cicadellidae. Avoid direct contact."
+  }
+}

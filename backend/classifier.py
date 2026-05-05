@@ -54,7 +54,7 @@ class InsectClassifier:
         elif self.model:
             preds = self.model.predict(img_array, verbose=0)[0]
         else:
-            return 'unknown', 0.0, img_array, 0
+            return 'unknown', 0.0, None, 0
 
         class_idx  = int(np.argmax(preds))
         confidence = float(preds[class_idx])
