@@ -8,8 +8,6 @@ The system combines:
 
 Computer Vision (Deep Learning classification)
 
-Explainable AI (Grad-CAM heatmaps)
-
 Knowledge-Based Intelligence (Scientific taxonomy + disease data)
 
 Risk Scoring Engine (Safe / Caution / High Risk)
